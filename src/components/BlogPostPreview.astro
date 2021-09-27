@@ -5,53 +5,17 @@ export interface Props {
 
 const { post } = Astro.props;
 ---
-<article class="post-preview">
-  <header>
-    <h3 class="publish-date">{post.date}</h3>
-    <a href={post.url}><h1 class="title">{post.title}</h1></a>
-  </header>
-  <main>
-    <p>{post.description}</p>
-    <a href={post.url}>Read more</a>
-  </main>
-</article>
 
-<style>
-.content :global(main > * + *) {
-  margin-top: 1rem;
-}
+<a href={post.url}
+  class="transition-all duration-75 ease-in-out h-full block relative top-0 hover:-top-2 shadow-lg hover:shadow-xl bg-white rounded-xl overflow-hidden">
 
-.post-preview {
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-  border-bottom: 4px solid var(--theme-divider);
-}
-
-header {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  align-items: flex-start;
-  justify-content: center;
-
-  padding-bottom: 2rem;
-}
-
-.title,
-.author,
-.publish-date {
-  margin: 0;
-}
-
-.publish-date,
-.author {
-  font-size: 1.25rem;
-  color: var(--theme-text-lighter);
-}
-
-.title {
-  font-size: 2.25rem;
-  font-weight: 700;
-  color: var(--theme-text);
-}
-</style>
+  <img class="squiggle" src={post.hero} alt={post.title} width="360" height="192">
+  <div class="py-6 px-8">
+    <h2 class="font-bold text-2xl leading-tight">
+      {post.title}
+    </h2>
+    <p class="text-xs text-gray-600 mt-4 flex items-center">
+      {post.date}
+    </p>
+  </div>
+</a>
