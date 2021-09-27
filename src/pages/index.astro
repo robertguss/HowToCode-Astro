@@ -1,8 +1,7 @@
 ---
 // Component Imports
 import BaseHead from '../components/BaseHead.astro';
-// import BlogHeader from '../components/BlogHeader.astro';
-import BlogHeader from '../components/Tailwind/Header.tsx';
+import BlogHeader from '../components/BlogHeader.astro';
 import BlogPostPreview from '../components/BlogPostPreview.astro';
 
 interface MarkdownFrontmatter {
@@ -13,9 +12,9 @@ interface MarkdownFrontmatter {
 // You can write any JavaScript/TypeScript that you'd like here.
 // It will run during the build, but never in the browser.
 // All variables are available to use in the HTML template below.
-let title = 'Example Blog';
-let description = 'The perfect starter for your perfect blog.';
-let permalink = 'https://example.com/';
+let title = 'How To Code';
+let description = 'Tutorials for Web Developers';
+let permalink = 'https://howtocode.io';
 
 // Data Fetching: List all Markdown posts in the repo.
 
@@ -76,7 +75,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.publishDate).valueOf() - new Date(
   </head>
 
   <body>
-    <BlogHeader client:load />
+    <BlogHeader />
     <div class="layout">
       <article class="content">
         <section class="intro">
