@@ -5,7 +5,7 @@ import BlogHeader from '../components/BlogHeader.astro';
 import BlogPostPreview from '../components/BlogPostPreview.astro';
 
 interface MarkdownFrontmatter {
-  publishDate: number;
+  date: number;
 }
 
 // Component Script:
@@ -19,7 +19,7 @@ let permalink = 'https://howtocode.io';
 // Data Fetching: List all Markdown posts in the repo.
 
 let allPosts = Astro.fetchContent<MarkdownFrontmatter>('./posts/*.md');
-allPosts = allPosts.sort((a, b) => new Date(b.publishDate).valueOf() - new Date(a.publishDate).valueOf());
+allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
