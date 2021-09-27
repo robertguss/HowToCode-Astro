@@ -1,10 +1,11 @@
 ---
-titile: "How to manage your expectations while teaching yourself how to code"
+title: "How to manage your expectations while teaching yourself how to code"
 date: "2021-08-10"
 slug: "how-to-manage-your-expectations-while-teaching-yourself-how-to-code"
 description: "Why embracing being a beginner is the most important lesson for you to learn before teaching yourself how to code."
 hero: "/images/writing-for-devs/cockpit.jpg"
 tags: ["career advice"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 Photo by <a href="https://unsplash.com/@franzharvin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Franz Harvin Aceituna</a> on <a href="https://unsplash.com/@franzharvin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

@@ -1,10 +1,11 @@
 ---
-titile: "What is Zettelkasten?"
+title: "What is Zettelkasten?"
 date: "2021-08-14"
 slug: "what-is-zettelkasten"
 description: "Zettelkasten is a method of taking notes that allowed German Sociologist Niklas Lumann to publish over 50 books and 600 articles during his lifetime"
 hero: "/images/zettelkasten/filing-cabinet.jpg"
 tags: ["productivity", "writing"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 Photo by <a href="https://unsplash.com/@qwitka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maksym Kaharlytskyi</a> on <a href="https://unsplash.com/s/photos/filing-cabinet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
