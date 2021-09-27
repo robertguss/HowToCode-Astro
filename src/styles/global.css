@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "./content.css";
+@import "./site.css";
+@import "./custom.css";
