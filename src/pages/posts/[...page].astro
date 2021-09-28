@@ -22,7 +22,6 @@ let description = 'Tutorials for Web Developers';
 export async function getStaticPaths({ paginate, rss }) {
   let allPosts = Astro.fetchContent('./*.md');
   allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
-  // console.log(allPosts.map(item => item.title))
 
   rss({
     title: 'How To Code',
@@ -31,7 +30,7 @@ export async function getStaticPaths({ paginate, rss }) {
     items: allPosts.map(item => ({
       title: item.title,
       description: item.description,
-      link: item.url,
+      link: `https://howtocode.io/${item.slug}`,
       pubDate: item.date,
     })),
   })
