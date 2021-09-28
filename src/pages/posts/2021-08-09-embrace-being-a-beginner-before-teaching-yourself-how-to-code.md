@@ -4,7 +4,7 @@ date: "2021-08-10"
 slug: "how-to-manage-your-expectations-while-teaching-yourself-how-to-code"
 description: "Why embracing being a beginner is the most important lesson for you to learn before teaching yourself how to code."
 hero: "/images/writing-for-devs/cockpit.jpg"
-tags: ["career advice"]
+tags: ["career-advice"]
 layout: "../../layouts/BlogPost.astro"
 ---
 
