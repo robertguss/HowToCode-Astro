@@ -27,8 +27,8 @@ export async function getStaticPaths({ }) {
 const { pages } = Astro.props
 const { params } = Astro.request
 
-let title = 'How To Code';
-let description = 'Tutorials for Web Developers';
+let title = params.tag;
+let description = ''; 
 ---
 
 <!-- <DefaultPageLayout content={{ title: `Posts by Tag: ${params.tag}`, description: `all of the articles we've posted and linked so far under the tag: ${params.tag}` }}>
@@ -48,7 +48,7 @@ let description = 'Tutorials for Web Developers';
       <article class="max-w-6xl mx-auto px-3">
         <HomeHeader title={title} description={description} />
         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
-          <!-- {allPosts.map(p => <div class="col-span-1"><Card post={p} /></div>)} -->
+          {pages.map(p => <div class="col-span-1"><Card post={p} /></div>)}
         </section>
       </article>
     </main>
