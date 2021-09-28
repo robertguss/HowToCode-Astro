@@ -2,21 +2,21 @@
 export interface Props {
   title: string;
   author: string;
-  publishDate: string;
-  heroImage: string;
+  date: string;
+  hero: string;
+  youtube: string;
 }
 
-const { title, author, publishDate, heroImage, alt } = Astro.props;
+const { title, date, hero, youtube } = Astro.props;
 ---
 
 <div class="layout">
   <article class="content">
   <div>
     <header>
-      {heroImage && <img width="720" height="420" class="hero-image" loading="lazy" src={heroImage} alt={alt} />}
-      <p class="publish-date">{publishDate}</p>
+      {hero && <img width="720" height="420" class="hero-image" loading="lazy" src={hero} alt={title} />}
+      <p class="publish-date">{date}</p>
       <h1 class="title">{title}</h1>
-      <!-- <Author name="@FredKSchott" href="https://twitter.com/FredKSchott" /> -->
     </header>
     <main>
       <slot />

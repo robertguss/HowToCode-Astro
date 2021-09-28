@@ -1,6 +1,6 @@
 ---
-import Fonts from './Head/Fonts.astro'
-import GoogleAnalytics from './Head/GoogleAnalytics.astro'
+import Fonts from './Fonts.astro'
+import GoogleAnalytics from './GoogleAnalytics.astro'
 
 export interface Props {
 title: string;
@@ -37,8 +37,8 @@ const { title, description, permalink } = Astro.props;
 <meta property="twitter:image" content="https://astro.build/social.jpg?v=1" />
 
 <!-- Custom CSS -->
-<link rel="stylesheet" type="text/css" href={Astro.resolve("../styles/global.css")}>
-<link rel="stylesheet" type="text/css" href={Astro.resolve("../styles/main.css")}>
+<link rel="stylesheet" type="text/css" href={Astro.resolve("../../styles/global.css")}>
+<link rel="stylesheet" type="text/css" href={Astro.resolve("../../styles/main.css")}>
 
 <!-- <link rel="canonical" href="{{ .Site.BaseURL }}{{ .Params.slug }}" /> -->
 
