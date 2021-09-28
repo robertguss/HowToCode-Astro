@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
+    "postbuild": "node ./scripts/search/prepare-index.js",
     "preview": "astro preview"
   },
   "devDependencies": {
@@ -13,6 +14,7 @@
     "@astrojs/renderer-react": "^0.2.1",
     "@snowpack/plugin-postcss": "^1.4.3",
     "astro": "^0.20.7",
+    "mark.js": "^8.11.1",
     "postcss": "^8.3.8",
     "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.6",
@@ -21,6 +23,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.4.1",
-    "@heroicons/react": "^1.0.4"
+    "@heroicons/react": "^1.0.4",
+    "lunr": "^2.3.9"
   }
 }

@@ -7,21 +7,27 @@ specifiers:
   '@heroicons/react': ^1.0.4
   '@snowpack/plugin-postcss': ^1.4.3
   astro: ^0.20.7
+  lunr: ^2.3.9
+  mark.js: ^8.11.1
   postcss: ^8.3.8
   postcss-import: ^14.0.2
   postcss-nested: ^5.0.6
   postcss-preset-env: ^6.7.0
   tailwindcss: ^2.2.15
+  xhr2: ^0.2.1
 
 dependencies:
   '@headlessui/react': 1.4.1
   '@heroicons/react': 1.0.4
+  lunr: 2.3.9
+  xhr2: 0.2.1
 
 devDependencies:
   '@astrojs/renderer-preact': 0.2.2
   '@astrojs/renderer-react': 0.2.1
   '@snowpack/plugin-postcss': 1.4.3_postcss@8.3.8
   astro: 0.20.7
+  mark.js: 8.11.1
   postcss: 8.3.8
   postcss-import: 14.0.2_postcss@8.3.8
   postcss-nested: 5.0.6_postcss@8.3.8
@@ -3168,6 +3174,10 @@ packages:
       yallist: 4.0.0
     dev: true
 
+  /lunr/2.3.9:
+    resolution: {integrity: sha512-zTU3DaZaF3Rt9rhN3uBMGQD3dD2/vFQqnvZCDv4dl5iOzq2IZQqTxu90r4E5J+nP70J3ilqVCrbho2eWaeW8Ow==}
+    dev: false
+
   /magic-string/0.25.7:
     resolution: {integrity: sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA==}
     dependencies:
@@ -3203,6 +3213,10 @@ packages:
       ssri: 8.0.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /mark.js/8.11.1:
+    resolution: {integrity: sha1-GA8fnr74sOY45BZq1S24eb6y/8U=}
     dev: true
 
   /markdown-table/3.0.1:
@@ -6089,6 +6103,11 @@ packages:
       bufferutil: 4.0.3
       utf-8-validate: 5.0.5
     dev: true
+
+  /xhr2/0.2.1:
+    resolution: {integrity: sha512-sID0rrVCqkVNUn8t6xuv9+6FViXjUVXq8H5rWOH2rz9fDNQEd4g0EA2XlcEdJXRz5BMEn4O1pJFdT+z4YHhoWw==}
+    engines: {node: '>= 6'}
+    dev: false
 
   /xtend/4.0.2:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}

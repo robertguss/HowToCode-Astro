@@ -1,0 +1,28 @@
+---
+// Component Imports
+import BaseHead from '../components/Head/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+import HomeHeader from '../components/HomeHeader.astro';
+import Footer from '../components/Footer/Footer.astro'
+import Search from '../components/Search.astro'
+
+let title = 'Search';
+let description = '';
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+
+  <body class="bg-white text-black font-body leading-normal personality-casual">
+    <Nav />
+    <main class="py-12 lg:py-20">
+      <article class="max-w-6xl mx-auto px-3">
+        <HomeHeader title={title} description={description} />
+        <Search />
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
