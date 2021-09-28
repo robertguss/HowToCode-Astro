@@ -3,7 +3,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Nav from '../components/Nav.astro';
 import HomeHeader from '../components/HomeHeader.astro';
-import BlogPostPreview from '../components/BlogPostPreview.astro';
+import Card from '../components/Card.astro';
 
 interface MarkdownFrontmatter {
   date: number;
@@ -28,14 +28,13 @@ allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date)
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} permalink={permalink} />
-    <link rel="stylesheet" type="text/css" href={Astro.resolve("../styles/global.css")}>
   </head>
 
   <body>
     <Nav />
     <HomeHeader title={title} description={description} />
     <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
-      {allPosts.map(p => <BlogPostPreview post={p} />)}
+      {allPosts.map(p => <div class="col-span-1"><Card post={p} /></div>)}
     </section>
   </body>
 </html>
