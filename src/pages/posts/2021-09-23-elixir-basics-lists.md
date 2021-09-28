@@ -1,5 +1,5 @@
 ---
-title: "Elixir Basics - Lists"
+title: "Elixir Basics - 2. Lists"
 date: "2021-09-23"
 slug: "elixir-basics-lists"
 description: "In this article, we are going to learn how lists work in Elixir."
