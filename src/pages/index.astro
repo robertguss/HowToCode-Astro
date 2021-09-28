@@ -10,21 +10,13 @@ interface MarkdownFrontmatter {
   date: number;
 }
 
-// Component Script:
-// You can write any JavaScript/TypeScript that you'd like here.
-// It will run during the build, but never in the browser.
-// All variables are available to use in the HTML template below.
 let title = 'How To Code';
 let description = 'Tutorials for Web Developers';
 
-// Data Fetching: List all Markdown posts in the repo.
-
 let allPosts = Astro.fetchContent<MarkdownFrontmatter>('./posts/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
 ---
+
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} />
@@ -32,16 +24,24 @@ allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date)
 
   <body class="bg-white text-black font-body leading-normal personality-casual">
     <Nav />
-    
+
     <main class="py-12 lg:py-20">
       <article class="max-w-6xl mx-auto px-3">
         <HomeHeader title={title} description={description} />
         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
-          {allPosts.map(p => <div class="col-span-1"><Card post={p} /></div>)}
+          {allPosts.slice(0, 12).map(p => <div class="col-span-1"><Card post={p} /></div>)}
         </section>
       </article>
     </main>
     
+    <section class="flex space-x-8 justify-center text-xl pt-16 font-bold">
+      <a
+        href="/posts"
+        class="mr-8">
+        See All<span class="squiggle">&rarr;</span>
+      </a>
+    </section>
+
     <Footer />
   </body>
 </html>
