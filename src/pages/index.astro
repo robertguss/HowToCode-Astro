@@ -1,8 +1,10 @@
 ---
 // Component Imports
-import BaseHead from '../components/BaseHead.astro';
-import BlogHeader from '../components/BlogHeader.astro';
-import BlogPostPreview from '../components/BlogPostPreview.astro';
+import BaseHead from '../components/Head/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+import HomeHeader from '../components/HomeHeader.astro';
+import Card from '../components/Card.astro';
+import Footer from '../components/Footer/Footer.astro'
 
 interface MarkdownFrontmatter {
   date: number;
@@ -14,7 +16,6 @@ interface MarkdownFrontmatter {
 // All variables are available to use in the HTML template below.
 let title = 'How To Code';
 let description = 'Tutorials for Web Developers';
-let permalink = 'https://howtocode.io';
 
 // Data Fetching: List all Markdown posts in the repo.
 
@@ -26,66 +27,21 @@ allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date)
 ---
 <html lang="en">
   <head>
-    <BaseHead title={title} description={description} permalink={permalink} />
-    <link rel="stylesheet" href="/blog.css" />
-    <link rel="stylesheet" type="text/css" href={Astro.resolve("../styles/global.css")}>
-
-    <style>
-      body {
-        width: 100%;
-        display: grid;
-        grid-template-rows: 3.5rem 1fr;
-        --gutter: 0.5rem;
-        --doc-padding: 2rem;
-      }
-
-      header {
-        width: 100%;
-        height: 100%;
-        background-color: var(--theme-bg-offset);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .content {
-        margin-top: 4rem;
-        margin-bottom: 8rem;
-      }
-
-      .content :global(main > * + *) {
-        margin-top: 1rem;
-      }
-
-      .intro {
-        padding-bottom: 4rem;
-        margin-bottom: 2rem;
-        border-bottom: 4px solid var(--theme-divider);
-      }
-
-      .intro > * {
-        margin: 0;
-      }
-
-      .latest {
-        font-size: 2.5rem;
-        font-weight: 700;
-      }
-    </style>
+    <BaseHead title={title} description={description} />
   </head>
 
-  <body>
-    <BlogHeader />
-    <div class="layout">
-      <article class="content">
-        <section class="intro">
-          <h1 class="latest">{title}</h1>
-          <p>{description}</p>
-        </section>
-        <section>
-          {allPosts.map(p => <BlogPostPreview post={p} />)}
+  <body class="bg-white text-black font-body leading-normal personality-casual">
+    <Nav />
+    
+    <main class="py-12 lg:py-20">
+      <article class="max-w-6xl mx-auto px-3">
+        <HomeHeader title={title} description={description} />
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
+          {allPosts.map(p => <div class="col-span-1"><Card post={p} /></div>)}
         </section>
       </article>
-    </div>
+    </main>
+    
+    <Footer />
   </body>
 </html>

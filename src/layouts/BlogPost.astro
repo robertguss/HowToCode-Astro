@@ -1,24 +1,23 @@
 ---
-import { Markdown } from 'astro/components';
-import BaseHead from '../components/BaseHead.astro';
-import BlogHeader from '../components/BlogHeader.astro';
+import Nav from '../components/Nav.astro';
+import BaseHead from '../components/Head/BaseHead.astro';
 import BlogPost from '../components/BlogPost.astro';
 
 const {content} = Astro.props;
-const {title, description, publishDate, author, heroImage, permalink, alt} = content;
+const {title, description, date, hero, youtube} = content;
 ---
 <html lang={ content.lang || 'en' }>
   <head>
-    <BaseHead title={title} description={description} permalink={permalink} />
-    <link rel="stylesheet" href="/blog.css" />
-    
+    <BaseHead title={title} description={description} />
   </head>
 
   <body>
-    <BlogHeader />
-    <BlogPost title={title} author={author} heroImage={heroImage} publishDate={publishDate} alt={alt}>
-      <slot />
-    </BlogPost>
+    <Nav />
+    <main class="py-12 lg:py-20">
+      <BlogPost title={title} hero={hero} date={date} youtube={youtube} >
+        <slot />
+      </BlogPost>
+    </main>
   </body>
 </html>
 
