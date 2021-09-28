@@ -13,4 +13,8 @@ export default /** @type {import('astro').AstroUserConfig} */ ({
   devOptions: {
     tailwindConfig: "./tailwind.config.js",
   },
+  buildOptions: {
+    site: "https://howtocode.io",
+    sitemap: true,
+  },
 });
