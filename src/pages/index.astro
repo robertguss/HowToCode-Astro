@@ -16,7 +16,6 @@ interface MarkdownFrontmatter {
 // All variables are available to use in the HTML template below.
 let title = 'How To Code';
 let description = 'Tutorials for Web Developers';
-let permalink = 'https://howtocode.io';
 
 // Data Fetching: List all Markdown posts in the repo.
 
@@ -28,7 +27,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date)
 ---
 <html lang="en">
   <head>
-    <BaseHead title={title} description={description} permalink={permalink} />
+    <BaseHead title={title} description={description} />
   </head>
 
   <body class="bg-white text-black font-body leading-normal personality-casual">

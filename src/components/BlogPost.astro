@@ -1,7 +1,8 @@
 ---
+import EmailSignup from './EmailSignup.astro'
+  
 export interface Props {
   title: string;
-  author: string;
   date: string;
   hero: string;
   youtube: string;
@@ -10,17 +11,34 @@ export interface Props {
 const { title, date, hero, youtube } = Astro.props;
 ---
 
-<div class="layout">
-  <article class="content">
-  <div>
-    <header>
-      {hero && <img width="720" height="420" class="hero-image" loading="lazy" src={hero} alt={title} />}
-      <p class="publish-date">{date}</p>
-      <h1 class="title">{title}</h1>
-    </header>
-    <main>
-      <slot />
-    </main>
-  </div>
-  </article>
-</div>
+<article class="max-w-5xl mx-auto px-3">
+  <header class="mx-auto max-w-3xl text-center content">
+    <h1>{title}</h1>
+  </header>
+
+  <!-- Tags -->
+  <!-- {{ if .Params.tags }}
+    <div class="blog-tags mb-8 mx-auto max-w-3xl text-center">
+      {{ range .Params.tags }}
+      <a
+        href="{{ "" | absLangURL }}tags/{{ . | urlize }}{{ if $.Site.Params.uglyurls }}.html{{ else }}/{{ end }}">#{{ . }}</a>&nbsp;
+      {{ end }}
+    </div>
+  {{ end }} -->
+
+  <!-- Image -->
+  {hero && <img class="rounded-xl mx-auto" style="min-width: 80%;" loading="lazy" src={hero} alt={title} />}
+
+  <!-- YouTube Video -->
+  <!-- {
+    youtube && <div class="embed-responsive aspect-ratio-16/9 mt-6 lg:mt-12"><iframe width="700" height="500" class="embed-responsive-item" src={`https://www.youtube.com/embed/${youtube}`}frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe></div>
+  } -->
+  
+
+  <!-- Content -->
+  <section class="max-w-3xl mx-auto py-6 lg:py-12 content">
+    <slot />
+  </section>
+
+  <EmailSignup />
+</article>
