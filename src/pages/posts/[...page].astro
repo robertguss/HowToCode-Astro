@@ -1,11 +1,11 @@
 ---
 // Component Imports
-import BaseHead from '../components/Head/BaseHead.astro';
-import Nav from '../components/Nav.astro';
-import HomeHeader from '../components/HomeHeader.astro';
-import Card from '../components/Card.astro';
-import Footer from '../components/Footer/Footer.astro'
-import Paginator from '../components/Paginator.astro'
+import BaseHead from '../../components/Head/BaseHead.astro';
+import Nav from '../../components/Nav.astro';
+import HomeHeader from '../../components/HomeHeader.astro';
+import Card from '../../components/Card.astro';
+import Footer from '../../components/Footer/Footer.astro'
+import Paginator from '../../components/Paginator.astro'
 
 interface MarkdownFrontmatter {
   date: number;
@@ -20,12 +20,13 @@ let description = 'Tutorials for Web Developers';
 // allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
 
 export async function getStaticPaths({ paginate, rss }) {
-  let allPosts = Astro.fetchContent<MarkdownFrontmatter>('./posts/*.md');
+  let allPosts = Astro.fetchContent('./*.md');
   allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
+  // console.log(allPosts.map(item => item.title))
 
   rss({
-    title,
-    description,
+    title: 'How To Code',
+    description: 'Tutorials for Web Developers',
     customData: `<language>en-us</language>`,
     items: allPosts.map(item => ({
       title: item.title,
@@ -55,7 +56,7 @@ const { page } = Astro.props
       <article class="max-w-6xl mx-auto px-3">
         <HomeHeader title={title} description={description} />
         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
-          <!-- {allPosts.map(p => <div class="col-span-1"><Card post={p} /></div>)} -->
+          {page.data.map(p => <div class="col-span-1"><Card post={p} /></div>)}
         </section>
       </article>
     </main>
