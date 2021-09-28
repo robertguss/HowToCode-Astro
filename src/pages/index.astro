@@ -5,42 +5,16 @@ import Nav from '../components/Nav.astro';
 import HomeHeader from '../components/HomeHeader.astro';
 import Card from '../components/Card.astro';
 import Footer from '../components/Footer/Footer.astro'
-import Paginator from '../components/Paginator.astro'
 
 interface MarkdownFrontmatter {
   date: number;
-  title: string;
-  description: string;
 }
 
 let title = 'How To Code';
 let description = 'Tutorials for Web Developers';
 
-// let allPosts = Astro.fetchContent<MarkdownFrontmatter>('./posts/*.md');
-// allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
-
-export async function getStaticPaths({ paginate, rss }) {
-  let allPosts = Astro.fetchContent<MarkdownFrontmatter>('./posts/*.md');
-  allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
-
-  rss({
-    title,
-    description,
-    customData: `<language>en-us</language>`,
-    items: allPosts.map(item => ({
-      title: item.title,
-      description: item.description,
-      link: item.url,
-      pubDate: item.date,
-    })),
-  })
-
-    return paginate(allPosts, {
-      pageSize: 12
-    })
-}
-
-const { page } = Astro.props
+let allPosts = Astro.fetchContent<MarkdownFrontmatter>('./posts/*.md');
+allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
 ---
 
 <html lang="en">
@@ -55,11 +29,11 @@ const { page } = Astro.props
       <article class="max-w-6xl mx-auto px-3">
         <HomeHeader title={title} description={description} />
         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
-          <!-- {allPosts.map(p => <div class="col-span-1"><Card post={p} /></div>)} -->
+          {allPosts.map(p => <div class="col-span-1"><Card post={p} /></div>)}
         </section>
       </article>
     </main>
-    <Paginator page={page} />
+
     <Footer />
   </body>
 </html>
