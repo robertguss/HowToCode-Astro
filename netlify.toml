@@ -1,0 +1,257 @@
+[[redirects]]
+  from = "/elixir-basics-lists/"
+  to = "/posts/elixir-basics-lists/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/elixir-basics-basic-data-types/"
+  to = "/posts/elixir-basics-basic-data-types/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/what-is-zettelkasten/"
+  to = "/posts/what-is-zettelkasten/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-to-manage-your-expectations-while-teaching-yourself-how-to-code/"
+  to = "/posts/how-to-manage-your-expectations-while-teaching-yourself-how-to-code/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/why-writing-is-important-for-software-developers/"
+  to = "/posts/why-writing-is-important-for-software-developers/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-i-taught-myself-how-to-code/"
+  to = "/posts/how-i-taught-myself-how-to-code/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/jamstack-gatsby-stripe-ecommerce/"
+  to = "/posts/jamstack-gatsby-stripe-ecommerce/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/jamstack-eleventy-memberstack/"
+  to = "/posts/jamstack-eleventy-memberstack/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/jamstack-hugo-netlify-zapier/"
+  to = "/posts/jamstack-hugo-netlify-zapier/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-to-deploy-statamic-3-to-digitalocean-app-platform/"
+  to = "/posts/how-to-deploy-statamic-3-to-digitalocean-app-platform/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/adonis-js-1-intro-and-setup/"
+  to = "/posts/adonis-js-1-intro-and-setup/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/adonis-js-2-routes-layouts/"
+  to = "/posts/adonis-js-2-routes-layouts/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/adonis-js-3-migrations-models/"
+  to = "/posts/adonis-js-3-migrations-models/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/adonis-js-4-seeds-factories/"
+  to = "/posts/adonis-js-4-seeds-factories/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/adonis-js-5-user-authentication/"
+  to = "/posts/adonis-js-5-user-authentication/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-to-become-a-back-end-developer/"
+  to = "/posts/how-to-become-a-back-end-developer/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-to-become-a-front-end-developer/"
+  to = "/posts/how-to-become-a-front-end-developer/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tailwind-css-travel-site-1-installing-tailwind-css/"
+  to = "/posts/tailwind-css-travel-site-1-installing-tailwind-css/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tailwind-css-travel-site-2-navigation-and-hero/"
+  to = "/posts/tailwind-css-travel-site-2-navigation-and-hero/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tailwind-css-travel-site-3-quote-form/"
+  to = "/posts/tailwind-css-travel-site-3-quote-form/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tailwind-css-travel-site-4-popular-destinations/"
+  to = "/posts/tailwind-css-travel-site-4-popular-destinations/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tailwind-css-travel-site-5-features-section/"
+  to = "/posts/tailwind-css-travel-site-5-features-section/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tailwind-css-travel-site-6-callouts-section/"
+  to = "/posts/tailwind-css-travel-site-6-callouts-section/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tailwind-css-travel-site-7-testimonial-section/"
+  to = "/posts/tailwind-css-travel-site-7-testimonial-section/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tailwind-css-travel-site-8-footer-purgecss/"
+  to = "/posts/tailwind-css-travel-site-8-footer-purgecss/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-to-customize-your-sitemap-in-hugo/"
+  to = "/posts/how-to-customize-your-sitemap-in-hugo/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/go-basics-1-installing-go-on-a-mac/"
+  to = "/posts/go-basics-1-installing-go-on-a-mac/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/go-basics-2-variables-in-go/"
+  to = "/posts/go-basics-2-variables-in-go/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/go-basics-3-primitives-in-go/"
+  to = "/posts/go-basics-3-primitives-in-go/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/go-basics-4-constants-in-go/"
+  to = "/posts/go-basics-4-constants-in-go/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/go-basics-5-arrays-and-slices-in-go/"
+  to = "/posts/go-basics-5-arrays-and-slices-in-go/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/go-basics-6-maps-in-go/"
+  to = "/posts/go-basics-6-maps-in-go/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/go-basics-7-structs-in-go/"
+  to = "/posts/go-basics-7-structs-in-go/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/understanding-map-filter-and-reduce-in-javascript/"
+  to = "/posts/understanding-map-filter-and-reduce-in-javascript/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/go-basics-8-control-flow-in-go/"
+  to = "/posts/go-basics-8-control-flow-in-go/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/go-basics-9-loops-in-go/"
+  to = "/posts/go-basics-9-loops-in-go/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/understanding-closures-in-javascript/"
+  to = "/posts/understanding-closures-in-javascript/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/go-basics-10-pointers-in-go/"
+  to = "/posts/go-basics-10-pointers-in-go/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/go-basics-11-functions-in-go/"
+  to = "/posts/go-basics-11-functions-in-go/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/looping-through-objects-in-javascript/"
+  to = "/posts/looping-through-objects-in-javascript/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/understanding-hoisting-in-javascript/"
+  to = "/posts/understanding-hoisting-in-javascript/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-to-console-log-better-in-javascript/"
+  to = "/posts/how-to-console-log-better-in-javascript/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-to-compare-dates-in-javascript/"
+  to = "/posts/how-to-compare-dates-in-javascript/"
+  status = 301
+  force = true
