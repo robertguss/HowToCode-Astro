@@ -147,7 +147,7 @@
 
         let resultTitle = document.createElement('a');
         resultTitle.className = 'searchResultTitle';
-        resultTitle.href = result.ref;
+        resultTitle.href = `/posts/${result.slug}`;
         resultTitle.innerHTML = result.title;
         resultPage.append(resultTitle);
 
