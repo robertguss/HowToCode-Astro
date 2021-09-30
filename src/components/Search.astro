@@ -1,6 +1,5 @@
 ---
-// import lunr, { Token, utils } from 'lunr';
-// import Mark from 'mark.js';
+
 ---
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -60,7 +59,7 @@
           lunrIndex = lunr(function () {
             this.tokenizer = bigramTokeniser;
             this.pipeline.reset();
-            this.ref('ref');
+            this.ref('slug');
             this.field('title', { boost: 10 });
             this.field('body');
             this.metadataWhitelist = ['position'];
@@ -87,7 +86,7 @@
       lunrResult = lunrIndex.search(queryNgramSeparator(query));
       return lunrResult.map((result) => {
         return pagesIndex.filter((page) => {
-          return page.ref === result.ref;
+          return page.slug === result.ref;
         })[0];
       });
     };
