@@ -479,11 +479,3 @@ Well, that wraps up this project. To recap, we used Memberstack to create a memb
 We also gained some experience with the Eleventy static site generator. This SSG is quite popular and is growing ever more so in popularity. It is quite simple to use and has a lot of features built-in by default. It provides several templating languages and other features that make getting Jamstack sites up and running quickly.
 
 For hosting and deployment, we used Surge. Surge is a simple NPM package that allows us to publish static sites with just a single command.
-
-## Understanding the Jamstack Book
-
-My book Understanding the Jamstack is "pay what you want." You can get it for free by entering `0` for the price at checkout.
-
-  <script src="https://gumroad.com/js/gumroad.js"></script>
-
-<a class="gumroad-button" href="https://gum.co/understanding-the-jamstack" target="_blank">Buy Understanding the Jamstack</a>

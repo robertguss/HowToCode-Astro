@@ -626,11 +626,3 @@ You can find the completed project here inside of `Hugo-Blog/final`
 ## Wrap up
 
 In this tutorial, we learned how to create a Jamstack site using the Hugo static site generator. We also integrated Netlify CMS to make it easy to update our content and deployed our site to Netlify. Finally, we set up Zapier to trigger automatic deploys on Netlify every day.
-
-## Understanding the Jamstack Book
-
-My book Understanding the Jamstack is "pay what you want." You can get it for free by entering `0` for the price at checkout.
-
-  <script src="https://gumroad.com/js/gumroad.js"></script>
-
-<a class="gumroad-button" href="https://gum.co/understanding-the-jamstack" target="_blank">Buy Understanding the Jamstack</a>
