@@ -591,11 +591,3 @@ The completed project can be found here inside of `Gatsby-eCommerce/final`
 ## Wrap Up
 
 In this tutorial, we learned how to create an ecommerce site using Gatsby and Stripe Checkout. We also installed a shopping cart plugin and deployed our site to Vercel.
-
-## Understanding the Jamstack Book
-
-My book Understanding the Jamstack is "pay what you want." You can get it for free by entering `0` for the price at checkout.
-
-  <script src="https://gumroad.com/js/gumroad.js"></script>
-
-<a class="gumroad-button" href="https://gum.co/understanding-the-jamstack" target="_blank">Buy Understanding the Jamstack</a>
