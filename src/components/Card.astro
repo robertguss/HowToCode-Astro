@@ -1,4 +1,6 @@
 ---
+import { format, parseISO } from 'date-fns/fp'
+  
 export interface Props {
   post: any;
 }
@@ -15,7 +17,7 @@ const { post } = Astro.props;
       {post.title}
     </h2>
     <p class="text-xs text-gray-600 mt-4 flex items-center">
-      {post.date}
+      {format('MM-dd-yyyy', parseISO(post.date))}
     </p>
   </div>
 </a>
