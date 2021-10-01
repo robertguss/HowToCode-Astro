@@ -7,6 +7,7 @@ specifiers:
   '@heroicons/react': ^1.0.4
   '@snowpack/plugin-postcss': ^1.4.3
   astro: ^0.20.7
+  date-fns: ^2.24.0
   lunr: ^2.3.9
   mark.js: ^8.11.1
   postcss: ^8.3.8
@@ -14,13 +15,12 @@ specifiers:
   postcss-nested: ^5.0.6
   postcss-preset-env: ^6.7.0
   tailwindcss: ^2.2.15
-  xhr2: ^0.2.1
 
 dependencies:
   '@headlessui/react': 1.4.1
   '@heroicons/react': 1.0.4
+  date-fns: 2.24.0
   lunr: 2.3.9
-  xhr2: 0.2.1
 
 devDependencies:
   '@astrojs/renderer-preact': 0.2.2
@@ -1757,6 +1757,11 @@ packages:
     dependencies:
       assert-plus: 1.0.0
     dev: true
+
+  /date-fns/2.24.0:
+    resolution: {integrity: sha512-6ujwvwgPID6zbI0o7UbURi2vlLDR9uP26+tW6Lg+Ji3w7dd0i3DOcjcClLjLPranT60SSEFBwdSyYwn/ZkPIuw==}
+    engines: {node: '>=0.11'}
+    dev: false
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
@@ -6103,11 +6108,6 @@ packages:
       bufferutil: 4.0.3
       utf-8-validate: 5.0.5
     dev: true
-
-  /xhr2/0.2.1:
-    resolution: {integrity: sha512-sID0rrVCqkVNUn8t6xuv9+6FViXjUVXq8H5rWOH2rz9fDNQEd4g0EA2XlcEdJXRz5BMEn4O1pJFdT+z4YHhoWw==}
-    engines: {node: '>= 6'}
-    dev: false
 
   /xtend/4.0.2:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
