@@ -15,7 +15,6 @@ let description = 'Tutorials for Web Developers';
 
 let allPosts = Astro.fetchContent<MarkdownFrontmatter>('./posts/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
-console.log(allPosts[0])
 ---
 
 <html lang="en">
