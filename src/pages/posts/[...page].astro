@@ -8,19 +8,20 @@ import Footer from '../../components/Footer/Footer.astro'
 import Paginator from '../../components/Paginator.astro'
 
 interface MarkdownFrontmatter {
-  date: number;
   title: string;
+  date: number;
+  slug: string;
   description: string;
+  hero: string;
+  tags: [];
+  layout: string;
 }
 
 let title = 'How To Code';
 let description = 'Tutorials for Web Developers';
 
-// let allPosts = Astro.fetchContent<MarkdownFrontmatter>('./posts/*.md');
-// allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
-
 export async function getStaticPaths({ paginate, rss }) {
-  let allPosts = Astro.fetchContent('./*.md');
+  let allPosts = Astro.fetchContent<MarkdownFrontmatter>('./*.md');
   allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
 
   rss({
