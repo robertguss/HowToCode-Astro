@@ -30,7 +30,7 @@ export async function getStaticPaths({ paginate, rss }) {
     items: allPosts.map(item => ({
       title: item.title,
       description: item.description,
-      link: `https://howtocode.io/${item.slug}`,
+      link: `posts/${item.slug}`,
       pubDate: item.date,
     })),
   })
