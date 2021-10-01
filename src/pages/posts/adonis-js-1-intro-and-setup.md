@@ -5,7 +5,7 @@ slug: "adonis-js-1-intro-and-setup"
 description: "In this tutorial series, we are going to be learning the fundamentals of Adonis JS, a full-stack framework for Node JS."
 hero: "/images/hero/adonis-js.png"
 tags: ["adonis-fundamentals"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this tutorial series, we are going to be learning the fundamentals of [Adonis JS](https://adonisjs.com/), a full-stack framework for Node JS. We will be building a library application called "Alexandria" which will serve as an admin application for managing books for a library.

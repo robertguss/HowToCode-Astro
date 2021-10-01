@@ -5,7 +5,7 @@ slug: "elixir-basics-lists"
 description: "In this article, we are going to learn how lists work in Elixir."
 hero: "/images/elixir-basics/cover-purple.png"
 tags: ["elixir-basics"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 Lists in Elixir are collections of values and can include multiple types.

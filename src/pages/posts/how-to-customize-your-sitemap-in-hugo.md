@@ -5,7 +5,7 @@ slug: "how-to-customize-your-sitemap-in-hugo"
 description: "In this article, I am going to show you how to customize your sitemap in Hugo (Golang)"
 hero: "/images/hero/gohugoio.png"
 tags: ["hugo"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this article, I am going to show you how to customize your sitemap in Hugo to do the following:

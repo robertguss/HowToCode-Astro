@@ -5,7 +5,7 @@ slug: "tailwind-css-travel-site-1-installing-tailwind-css"
 description: "In this tutorial, we are going to learn how to install & setup Tailwind CSS for our project"
 hero: "/images/hero/tailwind-css-travel-site.png"
 tags: ["tailwind-css-travel-site"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this tutorial we are going to be building the home page for a fictitious travel site. Before we can begin, we first need to setup our project and install [Tailwind CSS](https://tailwindcss.com/).

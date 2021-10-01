@@ -5,7 +5,7 @@ slug: "how-to-become-a-back-end-developer"
 description: "All of the technologies you will need to know in order to become a back-end developer. All of the resources are free!"
 hero: "/images/hero/backend-front-end.png"
 tags: ["back-end"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 ## Command Line

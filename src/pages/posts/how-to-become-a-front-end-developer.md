@@ -5,7 +5,7 @@ slug: "how-to-become-a-front-end-developer"
 description: "All of the technologies you will need to know in order to become a front-end developer. All of the resources are free!"
 hero: "/images/hero/backend-front-end.png"
 tags: ["front-end"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 ## Text Editor

@@ -5,7 +5,7 @@ slug: "elixir-basics-basic-data-types"
 description: "In this article, we are going to learn the basic data types in Elixir."
 hero: "/images/elixir-basics/cover-purple.png"
 tags: ["elixir-basics"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 ## Integers

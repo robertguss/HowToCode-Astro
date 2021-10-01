@@ -5,7 +5,7 @@ slug: "how-to-console-log-better-in-javascript"
 description: "In this article, I discuss various JavaScript debugging techniques using the console object."
 hero: "/images/hero/javascript-logo-banner.jpg"
 tags: ["javascript"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 You are probably already very familiar with using `console.log()` to print something to the console, especially the browser console. While this method is handy, there are lots of other methods on the `console` object that can make debugging, and our lives, for that matter, much easier.

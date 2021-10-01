@@ -5,7 +5,7 @@ slug: "tailwind-css-travel-site-2-navigation-and-hero"
 description: "In this tutorial, we are going to build the navigation and hero section for our travel site with Tailwind CSS"
 hero: "/images/hero/tailwind-css-travel-site.png"
 tags: ["tailwind-css-travel-site"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this lesson, we are going to be building the main navigation and hero section.

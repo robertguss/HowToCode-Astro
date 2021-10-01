@@ -6,7 +6,7 @@ description: "In this tutorial, we will build an e-commerce site with Gatsby and
 hero: "/images/hero/understanding_the_jamstack_banner.png"
 youtube: "LhhxQGdm3uo"
 tags: ["understanding-the-jamstack"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 **\*This project builds on top of the [Gatsby E-commerce Tutorial](https://www.gatsbyjs.com/tutorial/ecommerce-tutorial) provided in the official Gatsby docs, and the [Use Shopping Cart Example repo](https://github.com/dayhaysoos/use-shopping-cart/tree/master/examples/gatsby).**\_

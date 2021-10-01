@@ -5,7 +5,7 @@ slug: "understanding-closures-in-javascript"
 description: "Learn and understand how scope and closures work in JavaScript."
 hero: "/images/hero/javascript-logo-banner.jpg"
 tags: ["javascript"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 Closures are one of the more 'advanced' topics in JavaScript, and there is much confusion around them. I think a large part of the confusion comes from trying to explain what they are with too many technical details.

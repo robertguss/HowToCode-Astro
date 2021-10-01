@@ -5,7 +5,7 @@ slug: "go-basics-2-variables-in-go"
 description: "In this article, I am going to be covering how variables work in the Go (Golang) programming language."
 hero: "/images/hero/Golang-Basics.png"
 tags: ["go-basics"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this article, I am going to be covering how variables work in Golang. Here are some of the topics that are discussed.
