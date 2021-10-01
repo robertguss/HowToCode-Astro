@@ -5,7 +5,7 @@ slug: "adonis-js-5-user-authentication"
 description: "How to setup and configure user authentication in Adonis JS. In this section, we are going to learn how to set up user authentication so only registered and logged in users are able to create, edit & delete books."
 hero: "/images/hero/adonis-js.png"
 tags: ["adonis-fundamentals"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this section we are going to learn how to setup user authentication so only registered and logged in users are able to create, edit & delete books. In a real world library, these users would be the staff of the library. Non registered users are able to view all of the books.

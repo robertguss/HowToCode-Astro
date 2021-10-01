@@ -1,37 +1,33 @@
-<script type="application/ld+json">
-{{ if eq .Section "post" }}
+---
+const {content} = Astro.props;
+const {title, description, date, hero, astro} = content;
+---
+
+<script type=”application/ld+json”>
 {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": {{ .Title }},
-  "image": {{ .Params.hero | absURL }},
-  "datePublished": {{ .PublishDate }},
-  "dateModified": {{ .Lastmod }},
-  "author": {
-    "@type": "Person",
-    "name": {{ .Site.Params.author }}
-  },
-  "mainEntityOfPage": { "@type": "WebPage" },
-   "publisher": {
-    "@type": "Organization",
-    "name": {{ .Site.Params.header }},
-    "logo": {
-      "@type": "ImageObject",
-      "url": {{ .Site.Params.logo }}
-    }
-  },
-  "description": {{ .Params.description | plainify | safeHTML }},
-  "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+“@context”: “http://schema.org”,
+“@type”: “BlogPosting”,
+“mainEntityOfPage”:{
+“@type”:”WebPage”,
+“@id”:”https://howtocode.io”
+},
+“headline”: {title},
+“image”: {
+“@type”: “ImageObject”,
+“url”: {hero}
+},
+“datePublished”: {date},
+“dateModified”: {date},
+“author”: {
+“@type”: “Person”,
+“name”: “Robert Guss”
+},
+“publisher”: {
+“@type”: “Organization”,
+“name”: “How to Code”
 }
-{{ end }}
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": {{ .Site.Params.header }},
-  "url": {{ .Site.BaseURL }},
-  "sameAs": [
-    "https://twitter.com/{{ .Site.Params.twitter }}",
-    "https://github.com/{{ .Site.Params.github }}"
-  ]
+},
+“description”: {description},
+“articleBody”: {astro.source}
 }
 </script>

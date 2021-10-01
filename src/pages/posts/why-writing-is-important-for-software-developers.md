@@ -5,7 +5,7 @@ slug: "why-writing-is-important-for-software-developers"
 description: "This is my personal story of how I taught myself how to code and got hired as a junior developer in 5 months."
 hero: "/images/writing-for-devs/fountain-pen.jpg"
 tags: ["career-advice", "writing"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Aaron Burden</a> on <a href="https://unsplash.com/s/photos/writing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>

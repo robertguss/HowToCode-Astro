@@ -5,7 +5,7 @@ slug: "how-to-deploy-statamic-3-to-digitalocean-app-platform"
 description: "Learn how to set up and configure Statamic 3 when deploying to DigitalOcean App Platform"
 hero: "/images/hero/statamic_banner.png"
 tags: ["statamic", "digital-ocean"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 I recently migrated this blog over from [Ghost](https://ghost.org) to [Statamic](https://statamic.com/) and had some issues getting it to work properly on [DigitalOcean's app platform](https://www.digitalocean.com/products/app-platform/). My hopes in writing this article is that it will save someone the headaches I had to go through in order to get everything up and running correctly.

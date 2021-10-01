@@ -6,7 +6,7 @@ description: "In this tutorial, we will build a blog with Hugo and Netlify CMS. 
 hero: "/images/hero/understanding_the_jamstack_banner.png"
 youtube: "bY-CggQf9B8"
 tags: ["understanding-the-jamstack"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 We will be building a blog using the [Hugo](https://gohugo.io) Static Site Generator and then deploy it to Netlify. Once our blog is complete and lives on Netlify, we will then integrate [Zapier](https://zapier.com/) to trigger our site's automatic CI/CD pipelines. Zapier will allow us to write blog posts ahead of time by setting a publish date sometime in the future. It will then notify Netlify to build our site so that the entire process is automated.

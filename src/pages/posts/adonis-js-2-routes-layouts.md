@@ -5,7 +5,7 @@ slug: "adonis-js-2-routes-layouts"
 description: "In this section, we will be learning how to create and use routes, layouts, views, and controllers in Adonis JS."
 hero: "/images/hero/adonis-js.png"
 tags: ["adonis-fundamentals"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this section, we will be learning about routes, layouts, views and controllers. To begin, let's first setup and configure Bootstrap which will be using for the layout and styling of our application.

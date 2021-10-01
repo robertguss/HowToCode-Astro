@@ -5,7 +5,7 @@ slug: "tailwind-css-travel-site-8-footer-purgecss"
 description: "In this tutorial, we are going to build the footer section for our travel site in Tailwind CSS. We are also going to use PurgeCSS to reduce our production bundle size"
 hero: "/images/hero/tailwind-css-travel-site.png"
 tags: ["tailwind-css-travel-site"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this lesson, we are going to be building the footer section of our travel site, and integrating PurgeCSS to reduce our bundle size

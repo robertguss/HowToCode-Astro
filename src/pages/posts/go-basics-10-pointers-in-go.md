@@ -5,7 +5,7 @@ slug: "go-basics-10-pointers-in-go"
 description: "In this article, we are going to explore how pointers work in the Go (Golang) programming language."
 hero: "/images/hero/Golang-Basics.png"
 tags: ["go-basics"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this article, we are going to explore how pointers work in the Go programming language.

@@ -5,7 +5,7 @@ slug: "tailwind-css-travel-site-5-features-section"
 description: "In this tutorial, we are going to build the features section for our travel site in Tailwind CSS"
 hero: "/images/hero/tailwind-css-travel-site.png"
 tags: ["tailwind-css-travel-site"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this lesson, we are going to be building the popular destinations section of our travel site.

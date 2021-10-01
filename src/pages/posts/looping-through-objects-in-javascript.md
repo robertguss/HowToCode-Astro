@@ -5,7 +5,7 @@ slug: "looping-through-objects-in-javascript"
 description: "Learn how to loop through objects in JavaScript in three different ways."
 hero: "/images/hero/javascript-logo-banner.jpg"
 tags: ["javascript"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 Here is the object we will use for all of the examples:

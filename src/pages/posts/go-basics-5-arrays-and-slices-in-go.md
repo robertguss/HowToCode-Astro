@@ -5,7 +5,7 @@ slug: "go-basics-5-arrays-and-slices-in-go"
 description: "In this article, we are going to explore how to work with arrays & slices in the Go (Golang) programming language."
 hero: "/images/hero/Golang-Basics.png"
 tags: ["go-basics"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this article, we are going to explore how to work with arrays & slices in the Go programming language.

@@ -5,7 +5,7 @@ slug: "go-basics-3-primitives-in-go"
 description: "In this article, we are going to explore some of the primitives of the Go (Golang) programming language."
 hero: "/images/hero/Golang-Basics.png"
 tags: ["go-basics"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this article, we are going to explore some of the primitives of the Go programming language.

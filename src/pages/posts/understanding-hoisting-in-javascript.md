@@ -5,7 +5,7 @@ slug: "understanding-hoisting-in-javascript"
 description: "In this article, I discuss the concept of hoisting in JavaScript."
 hero: "/images/hero/javascript-logo-banner.jpg"
 tags: ["javascript"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 Hoisting in one of the more 'advanced' topics in JavaScript, but every JS developer needs to understand it. It is one of the odd 'quirks' or 'weird parts' of the language. This concept can get quite technical because it has to do with how the JS engine compiles and executes JS code. Before digging into the details, let's look at some simple examples.

@@ -5,7 +5,7 @@ slug: "go-basics-1-installing-go-on-a-mac"
 description: "In this article, I am going to show you how to install & setup Go (Golang) on Mac and also setup/configure VS Code for writing Go (Golang) code."
 hero: "/images/hero/Golang-Basics.png"
 tags: ["go-basics"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this article, I am going to show you how to install & setup Go on Mac and also setup/configure VS Code for writing Go code.

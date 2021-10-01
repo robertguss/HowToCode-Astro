@@ -6,7 +6,7 @@ description: "In this tutorial, we will build a membership site with Eleventy & 
 hero: "/images/hero/understanding_the_jamstack_banner.png"
 youtube: "8MpPmSWXBX4"
 tags: ["understanding-the-jamstack"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 For this project, we are going to be building a membership site using the [Eleventy](https://www.11ty.dev/) static site generator and [Memberstack](https://www.memberstack.com/). We will then deploy our membership site with [Surge](https://surge.sh/).

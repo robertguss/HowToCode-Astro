@@ -5,7 +5,7 @@ slug: "adonis-js-4-seeds-factories"
 description: "In this section, we will be learning about seeds, factories, and how to edit and delete our books in Adonis JS."
 hero: "/images/hero/adonis-js.png"
 tags: ["adonis-fundamentals"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this section, we will be learning about seeds, factories, and how to edit and delete our books.

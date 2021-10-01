@@ -5,7 +5,7 @@ slug: "adonis-js-3-migrations-models"
 description: "In this section, we will learn all about how to interact with our database using migrations, models, forms, seeds, and factories in Adonis JS."
 hero: "/images/hero/adonis-js.png"
 tags: ["adonis-fundamentals"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 In this section, we will learn all about how to interact with our database using migrations, models, forms, seeds and factories.

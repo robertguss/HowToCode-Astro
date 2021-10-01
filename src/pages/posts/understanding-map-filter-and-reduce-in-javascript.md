@@ -5,7 +5,7 @@ slug: "understanding-map-filter-and-reduce-in-javascript"
 description: "Map, Filter & Reduce are three of the most important array methods you need to learn and master as a JavaScript developer."
 hero: "/images/hero/javascript-logo-banner.jpg"
 tags: ["javascript"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) & [Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) are three of the most important array methods you need to learn and master as a JavaScript developer. Knowing all three of them is like having a Swiss Army knife for dealing with data in arrays.

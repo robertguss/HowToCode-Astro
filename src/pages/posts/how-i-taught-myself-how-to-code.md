@@ -5,7 +5,7 @@ slug: "how-i-taught-myself-how-to-code"
 description: "This is my personal story of how I taught myself how to code and got hired as a junior developer in 5 months."
 hero: "/images/hero/how-i-learned-how-to-code.png"
 tags: ["career-advice"]
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/BlogPostLayout.astro"
 ---
 
 Before I get into my story, I want to preface this article with a few things. I am typically a shy and introverted person. I am not the kind of person who openly discusses my achievements and successes, especially when it comes to finances. I don't like bragging or boasting, and this article is taking me way outside of my comfort zone.
