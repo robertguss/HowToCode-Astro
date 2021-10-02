@@ -3,29 +3,31 @@
 import BaseHead from '../components/Head/BaseHead.astro';
 import Nav from '../components/Nav.tsx';
 import HomeHeader from '../components/HomeHeader.astro';
-import Card from '../components/Card.astro';
+import Courses from '../components/Courses/Courses.tsx';
 import Footer from '../components/Footer/Footer.astro'
-import Tutorials from '../components/Tutorials/Tutorials.astro'
 
-let title = 'Tutorials';
+interface MarkdownFrontmatter {
+  date: number;
+}
+
+let title = 'Courses';
 let description = '';
 ---
-  
+
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} />
   </head>
 
   <body class="bg-white text-black font-body leading-normal personality-casual">
-    <Nav />
-    
+    <Nav client:load />
+
     <main class="py-12 lg:py-20">
-      <article class="max-w-6xl mx-auto px-3">
+      <article class="max-w-7xl mx-auto px-3">
         <HomeHeader title={title} description={description} />
-        <Tutorials />
+        <Courses />
       </article>
     </main>
-    
     <Footer />
   </body>
 </html>
