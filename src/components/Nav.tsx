@@ -36,12 +36,12 @@ const solutions = [
     href: "/courses",
     icon: LibraryIcon,
   },
-  // {
-  //   name: "Ebooks",
-  //   description: "",
-  //   href: "/books",
-  //   icon: BookOpenIcon,
-  // },
+  {
+    name: "Books",
+    description: "",
+    href: "/books",
+    icon: BookOpenIcon,
+  },
   {
     name: "Tutorials",
     description: "",

@@ -1,0 +1,28 @@
+---
+import BaseHead from '../components/Head/BaseHead.astro';
+import Nav from '../components/Nav.tsx';
+import HomeHeader from '../components/HomeHeader.astro';
+import Books from '../components/Books/Books.tsx';
+import Footer from '../components/Footer/Footer.astro'
+
+let title = 'Books';
+let description = 'All books are free!';
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+
+  <body class="bg-white text-black font-body leading-normal personality-casual">
+    <Nav client:load />
+
+    <main class="py-12 lg:py-20">
+      <article class="max-w-7xl mx-auto px-3">
+        <HomeHeader title={title} description={description} />
+        <Books />
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
