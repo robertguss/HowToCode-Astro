@@ -2,10 +2,14 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
+  AcademicCapIcon,
   BookmarkAltIcon,
+  BookOpenIcon,
   CalendarIcon,
   ChartBarIcon,
   CursorClickIcon,
+  GiftIcon,
+  LibraryIcon,
   MenuIcon,
   PhoneIcon,
   PlayIcon,
@@ -20,9 +24,9 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 const solutions = [
   {
     name: "Free Book",
-    description: "Get my book Understanding the Jamstack for free.",
+    description: "",
     href: "/subscribe",
-    icon: ChartBarIcon,
+    icon: GiftIcon,
   },
   {
     name: "Articles",
@@ -33,20 +37,20 @@ const solutions = [
   {
     name: "Courses",
     description: "",
-    href: "https://www.udemy.com/user/robertguss/",
-    icon: ShieldCheckIcon,
+    href: "/courses",
+    icon: LibraryIcon,
   },
   {
-    name: "Books",
+    name: "Ebooks",
     description: "",
     href: "/books",
-    icon: ViewGridIcon,
+    icon: BookOpenIcon,
   },
   {
     name: "Tutorials",
     description: "",
     href: "/tutorials",
-    icon: RefreshIcon,
+    icon: AcademicCapIcon,
   },
 ];
 const callsToAction = [
@@ -171,7 +175,7 @@ export default function Nav() {
                             </a>
                           ))}
                         </div>
-                        <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
+                        {/* <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
                           {callsToAction.map((item) => (
                             <div key={item.name} className="flow-root">
                               <a
@@ -186,7 +190,7 @@ export default function Nav() {
                               </a>
                             </div>
                           ))}
-                        </div>
+                        </div> */}
                       </div>
                     </Popover.Panel>
                   </Transition>
