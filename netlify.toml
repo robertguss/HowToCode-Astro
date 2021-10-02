@@ -1,7 +1,3 @@
-[build]
-  command = "npm run build"
-  publish = "dist"
-
 [[redirects]]
   from = "/elixir-basics-lists"
   to = "/posts/elixir-basics-lists"
