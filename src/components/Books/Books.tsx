@@ -38,7 +38,7 @@ export default function Books() {
         </div>
       </div>
 
-      {/* <div className="mt-12">
+      <div className="mt-12">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
@@ -51,7 +51,7 @@ export default function Books() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href=""
+                    href="/books/go-basics.zip"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
                   >
                     Get Book
@@ -70,7 +70,7 @@ export default function Books() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
