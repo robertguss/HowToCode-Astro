@@ -14,7 +14,7 @@ export default function Courses() {
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
                   Learn the latest version of Webpack along with other modern
-                  tools like Babel, Jest, ESLint, & Prettier.
+                  tools like Babel, Jest, ESLint, &amp; Prettier.
                 </p>
                 <div className="mt-6">
                   <a
