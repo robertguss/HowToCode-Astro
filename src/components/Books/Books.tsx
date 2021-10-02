@@ -17,7 +17,7 @@ export default function Books() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="/subscribe"
+                    href="/books/understanding-the-jamstack.zip"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
                   >
                     Get Book
