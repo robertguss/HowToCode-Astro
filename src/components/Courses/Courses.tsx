@@ -18,7 +18,8 @@ export default function Courses() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="https://www.udemy.com/course/webpack-5-fundamentals/"
+                    target="_blank"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
                   >
                     Take Course
@@ -58,9 +59,10 @@ export default function Courses() {
           </div>
         </div>
       </div>
-      <div className="mt-24">
+
+      <div className="mt-12">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+          <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
@@ -72,7 +74,8 @@ export default function Courses() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="https://www.udemy.com/course/learn-webpack-2-from-scratch/"
+                    target="_blank"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
                   >
                     Take Course
@@ -94,17 +97,17 @@ export default function Courses() {
                 <footer className="mt-3">
                   <div className="flex items-center space-x-3">
                     <div className="text-base font-medium text-gray-700">
-                      Octavian ROMINU
+                      Octavian Rominu
                     </div>
                   </div>
                 </footer>
               </blockquote>
             </div>
           </div>
-          <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-            <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+          <div className="mt-12 sm:mt-16 lg:mt-0">
+            <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="/images/courses/webpack.png"
                 alt="Webpack 2 Course Cover"
               />
