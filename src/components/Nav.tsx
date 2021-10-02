@@ -175,22 +175,6 @@ export default function Nav() {
                             </a>
                           ))}
                         </div>
-                        {/* <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                          {callsToAction.map((item) => (
-                            <div key={item.name} className="flow-root">
-                              <a
-                                href={item.href}
-                                className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
-                              >
-                                <item.icon
-                                  className="flex-shrink-0 h-6 w-6 text-gray-400"
-                                  aria-hidden="true"
-                                />
-                                <span className="ml-3">{item.name}</span>
-                              </a>
-                            </div>
-                          ))}
-                        </div> */}
                       </div>
                     </Popover.Panel>
                   </Transition>
@@ -198,20 +182,7 @@ export default function Nav() {
               )}
             </Popover>
 
-            {/* <a
-              href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Pricing
-            </a>
-            <a
-              href="#"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Docs
-            </a> */}
-
-            <Popover className="relative">
+            {/* <Popover className="relative">
               {({ open }) => (
                 <>
                   <Popover.Button
@@ -300,22 +271,9 @@ export default function Nav() {
                   </Transition>
                 </>
               )}
-            </Popover>
+            </Popover> */}
           </Popover.Group>
-          <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            {/* <a
-              href="#"
-              className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Sign in
-            </a>
-            <a
-              href="#"
-              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-            >
-              Sign up
-            </a> */}
-          </div>
+          <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0"></div>
         </div>
       </div>
 
@@ -369,46 +327,6 @@ export default function Nav() {
                 </nav>
               </div>
             </div>
-            {/* <div className="py-6 px-5 space-y-6"> */}
-            {/* <div className="grid grid-cols-2 gap-y-4 gap-x-8"> */}
-            {/* <a
-                  href="#"
-                  className="text-base font-medium text-gray-900 hover:text-gray-700"
-                >
-                  Pricing
-                </a>
-
-                <a
-                  href="#"
-                  className="text-base font-medium text-gray-900 hover:text-gray-700"
-                >
-                  Docs
-                </a> */}
-            {/* {resources.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
-                  >
-                    {item.name}
-                  </a>
-                ))} */}
-            {/* </div> */}
-            {/* <div> */}
-            {/* <a
-                  href="#"
-                  className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-                >
-                  Sign up
-                </a>
-                <p className="mt-6 text-center text-base font-medium text-gray-500">
-                  Existing customer?{" "}
-                  <a href="#" className="text-indigo-600 hover:text-indigo-500">
-                    Sign in
-                  </a>
-                </p> */}
-            {/* </div> */}
-            {/* </div> */}
           </div>
         </Popover.Panel>
       </Transition>
