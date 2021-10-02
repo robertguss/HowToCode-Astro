@@ -5,17 +5,14 @@ import {
   BookmarkAltIcon,
   BookOpenIcon,
   CalendarIcon,
-  ChartBarIcon,
   CursorClickIcon,
   GiftIcon,
   LibraryIcon,
   MenuIcon,
   PhoneIcon,
   PlayIcon,
-  RefreshIcon,
   ShieldCheckIcon,
   SupportIcon,
-  ViewGridIcon,
   XIcon,
 } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
@@ -136,14 +133,14 @@ export default function Nav() {
                 <>
                   <Popover.Button
                     className={classNames(
-                      open ? "text-gray-900" : "text-gray-500",
+                      open ? "text-black" : "text-black",
                       "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     )}
                   >
                     <span>Resources</span>
                     <ChevronDownIcon
                       className={classNames(
-                        open ? "text-gray-600" : "text-gray-400",
+                        open ? "text-black" : "text-black",
                         "ml-2 h-5 w-5 group-hover:text-gray-500"
                       )}
                       aria-hidden="true"
