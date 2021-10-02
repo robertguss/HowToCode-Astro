@@ -36,22 +36,18 @@ const solutions = [
     href: "/courses",
     icon: LibraryIcon,
   },
-  {
-    name: "Ebooks",
-    description: "",
-    href: "/books",
-    icon: BookOpenIcon,
-  },
+  // {
+  //   name: "Ebooks",
+  //   description: "",
+  //   href: "/books",
+  //   icon: BookOpenIcon,
+  // },
   {
     name: "Tutorials",
     description: "",
     href: "/tutorials",
     icon: AcademicCapIcon,
   },
-];
-const callsToAction = [
-  { name: "Watch Demo", href: "#", icon: PlayIcon },
-  { name: "Contact Sales", href: "#", icon: PhoneIcon },
 ];
 const resources = [
   {
