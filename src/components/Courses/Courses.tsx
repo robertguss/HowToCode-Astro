@@ -27,26 +27,6 @@ export default function Courses() {
                 </div>
               </div>
             </div>
-            <div className="mt-8 border-t border-gray-200 pt-6">
-              <blockquote>
-                <div>
-                  <p className="text-base text-gray-500">
-                    &ldquo;Clear and concise! Everything is up to the point and
-                    well explained. Its a dream that this course is free and yet
-                    it covers not only everything one needs to get their webpack
-                    up and running but also lots of answers about the hows and
-                    whys!&rdquo;
-                  </p>
-                </div>
-                <footer className="mt-3">
-                  <div className="flex items-center space-x-3">
-                    <div className="text-base font-medium text-gray-700">
-                      Arun Basnet
-                    </div>
-                  </div>
-                </footer>
-              </blockquote>
-            </div>
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
@@ -69,8 +49,7 @@ export default function Courses() {
                   Learn Webpack 2 from scratch
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Learn how to build web applications using Javascript's most
-                  popular build tool... Webpack 2
+                  Learn how to build web applications with Webpack 2
                 </p>
                 <div className="mt-6">
                   <a
@@ -82,26 +61,6 @@ export default function Courses() {
                   </a>
                 </div>
               </div>
-            </div>
-            <div className="mt-8 border-t border-gray-200 pt-6">
-              <blockquote>
-                <div>
-                  <p className="text-base text-gray-500">
-                    &ldquo;Highly recommend! You get updated with the new way of
-                    doing js related programming with actual tools to speed up
-                    the boring and repeating tasks. The instructor is good and
-                    fluent. Free here doesn't mean cheap. High value
-                    inside.&rdquo;
-                  </p>
-                </div>
-                <footer className="mt-3">
-                  <div className="flex items-center space-x-3">
-                    <div className="text-base font-medium text-gray-700">
-                      Octavian Rominu
-                    </div>
-                  </div>
-                </footer>
-              </blockquote>
             </div>
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
