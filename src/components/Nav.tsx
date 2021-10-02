@@ -18,7 +18,7 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 
 const solutions = [
   {
-    name: "Free Book",
+    name: "Free Books",
     description: "",
     href: "/subscribe",
     icon: GiftIcon,
@@ -35,12 +35,12 @@ const solutions = [
     href: "/courses",
     icon: LibraryIcon,
   },
-  {
-    name: "Books",
-    description: "",
-    href: "/books",
-    icon: BookOpenIcon,
-  },
+  // {
+  //   name: "Books",
+  //   description: "",
+  //   href: "/books",
+  //   icon: BookOpenIcon,
+  // },
   {
     name: "Tutorials",
     description: "",
