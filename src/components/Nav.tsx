@@ -19,35 +19,33 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 
 const solutions = [
   {
-    name: "Analytics",
-    description:
-      "Get a better understanding of where your traffic is coming from.",
-    href: "#",
+    name: "Free Book",
+    description: "Get my book Understanding the Jamstack for free.",
+    href: "/subscribe",
     icon: ChartBarIcon,
   },
   {
-    name: "Engagement",
-    description: "Speak directly to your customers in a more meaningful way.",
-    href: "#",
+    name: "Articles",
+    description: "",
+    href: "/posts",
     icon: CursorClickIcon,
   },
   {
-    name: "Security",
-    description: "Your customers' data will be safe and secure.",
-    href: "#",
+    name: "Courses",
+    description: "",
+    href: "https://www.udemy.com/user/robertguss/",
     icon: ShieldCheckIcon,
   },
   {
-    name: "Integrations",
-    description: "Connect with third-party tools that you're already using.",
-    href: "#",
+    name: "Books",
+    description: "",
+    href: "/books",
     icon: ViewGridIcon,
   },
   {
-    name: "Automations",
-    description:
-      "Build strategic funnels that will drive your customers to convert",
-    href: "#",
+    name: "Tutorials",
+    description: "",
+    href: "/tutorials",
     icon: RefreshIcon,
   },
 ];
@@ -98,7 +96,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Nav() {
   return (
     <Popover className="relative bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -113,6 +111,7 @@ export default function Example() {
               />
             </a>
           </div>
+
           <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
               <span className="sr-only">Open menu</span>
@@ -129,7 +128,7 @@ export default function Example() {
                       "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     )}
                   >
-                    <span>Solutions</span>
+                    <span>Resources</span>
                     <ChevronDownIcon
                       className={classNames(
                         open ? "text-gray-600" : "text-gray-400",
@@ -195,7 +194,7 @@ export default function Example() {
               )}
             </Popover>
 
-            <a
+            {/* <a
               href="#"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
@@ -206,7 +205,7 @@ export default function Example() {
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Docs
-            </a>
+            </a> */}
 
             <Popover className="relative">
               {({ open }) => (
@@ -300,7 +299,7 @@ export default function Example() {
             </Popover>
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <a
+            {/* <a
               href="#"
               className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
             >
@@ -311,7 +310,7 @@ export default function Example() {
               className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
             >
               Sign up
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -368,7 +367,7 @@ export default function Example() {
             </div>
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                <a
+                {/* <a
                   href="#"
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
@@ -380,7 +379,7 @@ export default function Example() {
                   className="text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Docs
-                </a>
+                </a> */}
                 {resources.map((item) => (
                   <a
                     key={item.name}
@@ -392,7 +391,7 @@ export default function Example() {
                 ))}
               </div>
               <div>
-                <a
+                {/* <a
                   href="#"
                   className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                 >
@@ -403,7 +402,7 @@ export default function Example() {
                   <a href="#" className="text-indigo-600 hover:text-indigo-500">
                     Sign in
                   </a>
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
