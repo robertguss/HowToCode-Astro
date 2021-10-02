@@ -9,8 +9,7 @@ import {
   GiftIcon,
   LibraryIcon,
   MenuIcon,
-  PhoneIcon,
-  PlayIcon,
+  SearchIcon,
   ShieldCheckIcon,
   SupportIcon,
   XIcon,
@@ -47,6 +46,12 @@ const solutions = [
     description: "",
     href: "/tutorials",
     icon: AcademicCapIcon,
+  },
+  {
+    name: "Search",
+    description: "",
+    href: "/search",
+    icon: SearchIcon,
   },
 ];
 const resources = [
