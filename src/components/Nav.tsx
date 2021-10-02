@@ -122,7 +122,7 @@ export default function Nav() {
           </div>
 
           <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
@@ -134,7 +134,7 @@ export default function Nav() {
                   <Popover.Button
                     className={classNames(
                       open ? "text-black" : "text-black",
-                      "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     )}
                   >
                     <span>Resources</span>
@@ -166,7 +166,7 @@ export default function Nav() {
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
                               <item.icon
-                                className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                                className="flex-shrink-0 h-6 w-6 text-blue-600"
                                 aria-hidden="true"
                               />
                               <div className="ml-4">
@@ -193,7 +193,7 @@ export default function Nav() {
                   <Popover.Button
                     className={classNames(
                       open ? "text-gray-900" : "text-gray-500",
-                      "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     )}
                   >
                     <span>More</span>
@@ -225,7 +225,7 @@ export default function Nav() {
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
                               <item.icon
-                                className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                                className="flex-shrink-0 h-6 w-6 text-blue-600"
                                 aria-hidden="true"
                               />
                               <div className="ml-4">
@@ -263,7 +263,7 @@ export default function Nav() {
                           <div className="mt-5 text-sm">
                             <a
                               href="#"
-                              className="font-medium text-indigo-600 hover:text-indigo-500"
+                              className="font-medium text-blue-600 hover:text-blue-500"
                             >
                               {" "}
                               View all posts{" "}
@@ -301,12 +301,12 @@ export default function Nav() {
                 <div>
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                    src="https://tailwindui.com/img/logos/workflow-mark-blue-600.svg"
                     alt="Workflow"
                   />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -321,7 +321,7 @@ export default function Nav() {
                       className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                     >
                       <item.icon
-                        className="flex-shrink-0 h-6 w-6 text-indigo-600"
+                        className="flex-shrink-0 h-6 w-6 text-blue-600"
                         aria-hidden="true"
                       />
                       <span className="ml-3 text-base font-medium text-gray-900">
