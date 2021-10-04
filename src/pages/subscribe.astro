@@ -11,13 +11,15 @@ interface MarkdownFrontmatter {
   date: number;
 }
 
-let title = 'Subscribe';
-let description = '';
+let pageTitle = 'Subscribe';
+let pageDescription = 'and get all of my books for free!';
+let seoTitle = 'Subscribe | How To Code';
+let seoDescription = 'Subsribe to the How to Code Newsletter and get all of my books for free!';
 ---
 
 <html lang="en">
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead title={seoTitle} description={seoDescription} />
   </head>
 
   <body class="bg-white text-black font-body leading-normal personality-casual">
@@ -25,7 +27,7 @@ let description = '';
 
     <main class="py-12 lg:py-20">
       <article class="max-w-6xl mx-auto px-3">
-        <HomeHeader title={title} description={description} />
+        <HomeHeader title={pageTitle} description={pageDescription} />
         
         <BooksGrid />
         <EmailSignup />
