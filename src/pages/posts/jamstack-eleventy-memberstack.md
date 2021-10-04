@@ -143,7 +143,8 @@ Then click the "I'd rather use data attributes" and copy the attribute.
 
 Then head back over to our site's code and open the `index.html` file and scroll to around line `232` and add the the data attribute to our basic signup link like so:
 
-```HTML
+```html
+<!--
 <a
   data-ms-membership="5fd8ca13..."
   href="signup"
@@ -151,7 +152,10 @@ Then head back over to our site's code and open the `index.html` file and scroll
 >
   <div>Get Started</div>
 </a>
+-->
 ```
+
+_**This code is commented out so that the `<a>` not be crawled on this page. You will need to add this code without the comments for it to work**_
 
 Now let's do the same for our premium membership. Head back to Memberstack and copy the data attribute for the premium plan.
 
@@ -160,6 +164,7 @@ Now let's do the same for our premium membership. Head back to Memberstack and c
 Add the data attribute to our premium link around line `247`
 
 ```html
+<!--
 <a
   data-ms-membership="5fd8cfb1..."
   href="signup"
@@ -167,7 +172,10 @@ Add the data attribute to our premium link around line `247`
 >
   <div>Get Started</div>
 </a>
+-->
 ```
+
+_**This code is commented out so that the `<a>` not be crawled on this page. You will need to add this code without the comments for it to work**_
 
 ### Installing Memberstack Header code
 
