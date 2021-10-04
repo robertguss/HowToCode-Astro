@@ -12,7 +12,7 @@ In this lesson, we are going to be building the callouts section of our travel s
 
 The final result will look like:
 
-![](/images/tailwind-travel-site/5-four-callouts-1.jpg)
+![](/images/tailwind-travel-site/5-four-callouts.jpg)
 
 You can pick up where we last left off, by cloning the previous tutorial's branch with git.
 

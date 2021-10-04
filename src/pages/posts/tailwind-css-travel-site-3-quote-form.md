@@ -186,7 +186,7 @@ Finally, we will add some margin to the right of each element to provide some sp
 </section>
 ```
 
-![](/images/tailwind-travel-site/5-margin-right-1.jpg)
+![](/images/tailwind-travel-site/5-margin-right.jpg)
 
 Our finished quote form 😎
 

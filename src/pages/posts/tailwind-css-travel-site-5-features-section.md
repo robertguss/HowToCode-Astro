@@ -12,7 +12,7 @@ In this lesson, we are going to be building the popular destinations section of 
 
 The final result will look like:
 
-![](/images/tailwind-travel-site/4-features-background-1.jpg)
+![](/images/tailwind-travel-site/4-features-background.jpg)
 
 You can pick up where we last left off, by cloning the previous tutorial's branch with git.
 
@@ -69,7 +69,7 @@ Next, we will add the illustration image and our headings inside of `features.ht
 
 Our features section should now look like this:
 
-![](/images/tailwind-travel-site/1-illustration-headings-1.jpg)
+![](/images/tailwind-travel-site/1-illustration-headings.jpg)
 
 **Just a reminder that if you are wondering where you can find this *par*ticular image/svg of the woman walking with her suitcase, it is located in the GitHub repo listed above under branch `4-popular-destinations`**
 

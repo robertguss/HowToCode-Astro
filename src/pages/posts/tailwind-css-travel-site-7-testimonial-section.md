@@ -12,7 +12,7 @@ In this lesson, we are going to be building the testimonial section of our trave
 
 The final result will look like:
 
-![](/images/tailwind-travel-site/3-testimonial-final-1.jpg)
+![](/images/tailwind-travel-site/3-testimonial-final.jpg)
 
 You can pick up where we last left off, by cloning the previous tutorial's branch with git.
 
@@ -128,7 +128,7 @@ To make this look a little more "designed" we can add a quote svg icon like so:
 
 Which now looks like:
 
-![](/images/tailwind-travel-site/2-quotes-1.jpg)
+![](/images/tailwind-travel-site/2-quotes.jpg)
 
 Let's add some custom css to reposition the icon and change the color. Add the following css to `main.css`
 
