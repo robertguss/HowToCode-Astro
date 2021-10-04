@@ -187,11 +187,12 @@ Copy the code snippet in there and then paste the snippet just above the closing
     href="/images/images/Freebie-Webclip.png"
     rel="apple-touch-icon">
 
-  <!-- Memberstack -->
+  <!-- Memberstack
   <script
     src="https://api.memberstack.io/static/memberstack.js?custom"
     data-memberstack-id="751ee1...">
   </script>
+  -->
 </head>
 ```
 
