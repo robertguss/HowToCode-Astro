@@ -2,7 +2,7 @@
 title: "Why Writing is Important for Software Developers"
 date: "2021-08-04"
 slug: "why-writing-is-important-for-software-developers"
-description: "This is my personal story of how I taught myself how to code and got hired as a junior developer in 5 months."
+description: "In this article I discuss the importance of being a good writer as a software developer."
 hero: "/images/writing-for-devs/fountain-pen.jpg"
 tags: ["career-advice", "writing"]
 layout: "../../layouts/BlogPostLayout.astro"
