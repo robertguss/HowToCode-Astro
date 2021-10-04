@@ -12,6 +12,7 @@ interface MarkdownFrontmatter {
 
 let title = 'How To Code';
 let description = 'Tutorials for Web Developers';
+let seoDescription = 'How to Code focuses on teaching web development through articles, books, courses and tutorials.';
 
 let allPosts = Astro.fetchContent<MarkdownFrontmatter>('./posts/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
@@ -19,7 +20,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date)
 
 <html lang="en">
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead title={title} description={seoDescription} />
   </head>
 
   <body class="bg-white text-black font-body leading-normal personality-casual">

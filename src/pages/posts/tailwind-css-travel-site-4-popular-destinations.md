@@ -12,7 +12,7 @@ In this lesson, we are going to be building the popular destinations section of 
 
 The final result will look like:
 
-![](/images/tailwind-travel-site/7-six-cards-1.jpg)
+![](/images/tailwind-travel-site/7-six-cards.jpg)
 
 You can pick up where we last left off, by cloning the previous tutorial's branch with git.
 

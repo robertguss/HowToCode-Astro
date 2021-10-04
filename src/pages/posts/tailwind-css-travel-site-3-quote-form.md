@@ -12,7 +12,7 @@ In this lesson, we are going to be building the quote form.
 
 The final result will look like:
 
-![](/images/tailwind-travel-site/5-margin-right-2.jpg)
+![](/images/tailwind-travel-site/5-margin-right.jpg)
 
 You can pick up where we last left off, by cloning the previous tutorial's branch with git.
 
@@ -186,7 +186,7 @@ Finally, we will add some margin to the right of each element to provide some sp
 </section>
 ```
 
-![](/images/tailwind-travel-site/5-margin-right-1.jpg)
+![](/images/tailwind-travel-site/5-margin-right.jpg)
 
 Our finished quote form 😎
 

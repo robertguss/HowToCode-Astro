@@ -12,7 +12,7 @@ In this lesson, we are going to be building the main navigation and hero section
 
 The final result will look like:
 
-![](/images/tailwind-travel-site/nav-and-hero-final-1.jpg)
+![](/images/tailwind-travel-site/nav-and-hero-final.jpg)
 
 You can pick up where we last left off, by cloning the previous tutorial's branch with git.
 

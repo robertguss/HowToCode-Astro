@@ -12,7 +12,7 @@ In this lesson, we are going to be building the footer section of our travel sit
 
 The final result will look like:
 
-![](/images/tailwind-travel-site/1-footer-1.jpg)
+![](/images/tailwind-travel-site/1-footer.jpg)
 
 You can pick up where we last left off, by cloning the previous tutorial's branch with git.
 

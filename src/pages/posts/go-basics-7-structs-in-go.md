@@ -196,7 +196,7 @@ _**Notice how the types are separated with a semi-colon `;` instead of a comma `
 
 ## Structs are passed by value
 
-Structs are passed by `value`. Therefore, if you create a copy of one, and modify that copy, you won't alter the original; unlike [maps](/go-basics-6-maps-in-go) or [slices](go-basics-5-arrays-and-slices-in-go) which are passed by `reference`.
+Structs are passed by `value`. Therefore, if you create a copy of one, and modify that copy, you won't alter the original; unlike [maps](/posts/go-basics-6-maps-in-go) or [slices](/posts/go-basics-5-arrays-and-slices-in-go) which are passed by `reference`.
 
 ```go
 package main

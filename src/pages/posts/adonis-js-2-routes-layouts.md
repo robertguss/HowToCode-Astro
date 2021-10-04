@@ -245,7 +245,7 @@ Add the following markup to this file:
 @endsection
 ```
 
-We are using our `default.edge` layout and using [Edge's templating](https://edge.adonisjs.com/docs/syntax-guide) shorthand for a for loop to loop through our books array.
+We are using our `default.edge` layout and using [Edge's templating](https://docs.adonisjs.com/guides/views/templating-syntax) shorthand for a for loop to loop through our books array.
 
 Now, we need to create a new route, which will load this view. Open up `start/routes.js` and add the following:
 
