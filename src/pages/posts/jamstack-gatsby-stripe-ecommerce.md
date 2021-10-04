@@ -228,7 +228,7 @@ export default getStripe;
 
 We will be installing a shopping cart package that will allow our customers to add t-shirts to their cart, as this does not come out of the box with Stripe checkout. Otherwise, customers will only be able to buy a single product at a time.
 
-We will be installing [Use-Shopping-Cart](https://useshoppingcart.com/getting-started#installation)
+We will be installing [Use-Shopping-Cart](https://useshoppingcart.com/docs/getting-started)
 
 Install the shopping cart with the following command.
 

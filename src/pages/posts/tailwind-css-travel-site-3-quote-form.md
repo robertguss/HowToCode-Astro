@@ -12,7 +12,7 @@ In this lesson, we are going to be building the quote form.
 
 The final result will look like:
 
-![](/images/tailwind-travel-site/5-margin-right-2.jpg)
+![](/images/tailwind-travel-site/5-margin-right.jpg)
 
 You can pick up where we last left off, by cloning the previous tutorial's branch with git.
 
