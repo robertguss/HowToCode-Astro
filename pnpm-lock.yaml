@@ -7,6 +7,7 @@ specifiers:
   '@heroicons/react': ^1.0.4
   '@snowpack/plugin-postcss': ^1.4.3
   astro: ^0.20.7
+  astro-seo: ^0.3.11
   date-fns: ^2.24.0
   lunr: ^2.3.9
   mark.js: ^8.11.1
@@ -19,6 +20,7 @@ specifiers:
 dependencies:
   '@headlessui/react': 1.4.1
   '@heroicons/react': 1.0.4
+  astro-seo: 0.3.11
   date-fns: 2.24.0
   lunr: 2.3.9
 
@@ -1143,6 +1145,10 @@ packages:
     resolution: {integrity: sha512-lobf6RWXb8c4uZ7Mdq0U12efYmpD1UFnyOWVJPTa3ukqZrMopav+2hdNu0hgBF0JIBFK9QgrBDfwYvh3DFJDAA==}
     hasBin: true
     dev: true
+
+  /astro-seo/0.3.11:
+    resolution: {integrity: sha512-cHsmpxqInhxMy3Qo+4lV+KyinAuGglAQESjkO/b0Kmd3T/zIgsGzDYRdRsTch0koPC23Y1DyKKxmuits/Z1DYA==}
+    dev: false
 
   /astro/0.20.7:
     resolution: {integrity: sha512-HjMdVc6HWHOlG+86EcRXJFWOd49J81w7OlJnZPMlnUU1AMWFX1/9MsHNTwn8SdUvWCWckcrOgUSOO1qjNnmenw==}
