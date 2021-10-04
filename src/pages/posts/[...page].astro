@@ -6,12 +6,6 @@ import HomeHeader from '../../components/HomeHeader.astro';
 import Card from '../../components/Card.astro';
 import Footer from '../../components/Footer/Footer.astro'
 import Paginator from '../../components/Paginator.astro'
-import { SEO } from 'astro-seo'
-
-let pageTitle = 'Articles';
-let pageDescription = '';
-let seoTitle = 'Articles | How To Code';
-let seoDescription = 'How to Code is a blog for web developers that focuses on teaching web development through articles, books, courses and tutorials.';
 
 export async function getStaticPaths({ paginate, rss }) {
   let allPosts = Astro.fetchContent('./*.md');
@@ -35,6 +29,10 @@ export async function getStaticPaths({ paginate, rss }) {
 }
 
 const { page } = Astro.props
+let pageTitle = 'Articles';
+let pageDescription = `page ${page.currentPage} of all articles`;
+let seoTitle = 'Articles | How To Code';
+let seoDescription = 'How to Code is a blog for web developers that focuses on teaching web development through articles, books, courses and tutorials.';
 ---
 
 <html lang="en">
