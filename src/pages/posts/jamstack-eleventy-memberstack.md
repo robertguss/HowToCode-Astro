@@ -186,7 +186,7 @@ Next, we need to install the Memberstack `<script>` tag in the `<head>` of our s
 Copy the code snippet in there and then paste the snippet just above the closing `</head>` tag in `src/_includes/layouts/base.html.` The file should now look like this:
 
 ```HTML
-<!-- Additional Code Above -->
+<!-- Additional Code Above
 <link
   href="/asssets/images/Freebie-Favicon.png"
   rel="shortcut icon" type="image/x-icon">
@@ -194,6 +194,7 @@ Copy the code snippet in there and then paste the snippet just above the closing
   <link
     href="/images/images/Freebie-Webclip.png"
     rel="apple-touch-icon">
+-->
 
   <!-- Memberstack
   <script
@@ -203,6 +204,8 @@ Copy the code snippet in there and then paste the snippet just above the closing
   -->
 </head>
 ```
+
+_**This code is commented out so that the `<a>` not be crawled on this page. You will need to add this code without the comments for it to work**_
 
 _**Note: the formatting & indentation might be different in your file.**_
 
