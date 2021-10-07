@@ -1,6 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { InboxIcon, SparklesIcon } from "@heroicons/react/outline";
-
 export default function Courses() {
   return (
     <div className="relative bg-white pt-16 pb-32 overflow-hidden">
