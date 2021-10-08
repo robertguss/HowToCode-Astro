@@ -6,14 +6,16 @@ const { page } = Astro.props
   {page.url.prev &&
   <a
     href={page.url.prev}
-    class="mr-8">
+    class="mr-8"
+    data-test="paginator-prev">
     <span class="squiggle">&larr;</span> Prev
   </a>
   }
 
   {page.url.next &&
   <a
-    href={page.url.next}>
+    href={page.url.next}
+    data-test="paginator-next">
     Next<span class="squiggle">&rarr;</span>
   </a>
   }
