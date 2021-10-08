@@ -3,16 +3,25 @@ import { InboxIcon, SparklesIcon } from "@heroicons/react/outline";
 
 export default function Courses() {
   return (
-    <div className="relative bg-white pt-16 pb-32 overflow-hidden">
-      <div className="relative">
+    <div
+      className="relative bg-white pt-16 pb-32 overflow-hidden"
+      data-test="courses"
+    >
+      <div className="relative" data-test="course-1">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
               <div className="mt-6">
-                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                <h2
+                  className="text-3xl font-extrabold tracking-tight text-gray-900"
+                  data-test="course-title"
+                >
                   Webpack 5 Fundamentals
                 </h2>
-                <p className="mt-4 text-lg text-gray-500">
+                <p
+                  className="mt-4 text-lg text-gray-500"
+                  data-test="course-description"
+                >
                   Learn the latest version of Webpack along with other modern
                   tools like Babel, Jest, ESLint, &amp; Prettier.
                 </p>
@@ -40,15 +49,21 @@ export default function Courses() {
         </div>
       </div>
 
-      <div className="mt-12">
+      <div className="mt-12" data-test="course-2">
         <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
             <div>
               <div className="mt-6">
-                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                <h2
+                  className="text-3xl font-extrabold tracking-tight text-gray-900"
+                  data-test="course-title"
+                >
                   Learn Webpack 2 from scratch
                 </h2>
-                <p className="mt-4 text-lg text-gray-500">
+                <p
+                  className="mt-4 text-lg text-gray-500"
+                  data-test="course-description"
+                >
                   Learn how to build web applications with Webpack 2
                 </p>
                 <div className="mt-6">

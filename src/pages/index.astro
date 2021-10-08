@@ -24,12 +24,12 @@ allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date)
   </head>
 
   <body class="bg-white text-black font-body leading-normal personality-casual">
-    <Nav client:load />
+    <Nav client:only="react" />
 
     <main class="py-12 lg:py-20">
       <article class="max-w-6xl mx-auto px-3">
         <HomeHeader title={title} description={description} />
-        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8" data-test="articles-section">
           {allPosts.slice(0, 6).map(p => <div class="col-span-1"><Card post={p} /></div>)}
         </section>
       </article>
@@ -38,7 +38,9 @@ allPosts = allPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date)
     <section class="flex space-x-8 justify-center text-xl pt-8 font-bold">
       <a
         href="/posts"
-        class="mr-8">
+        class="mr-8"
+        data-test="see-all-link"
+        >
         See All<span class="squiggle">&rarr;</span>
       </a>
     </section>
