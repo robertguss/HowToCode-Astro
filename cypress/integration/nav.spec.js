@@ -12,11 +12,11 @@ describe("Navigation", () => {
     });
   });
 
-  it("The Free Books link goes to the /subscribe page, and the nav menu opens when clicked", () => {
+  it("The Free Books link goes to the /subscribe page", () => {
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
-      cy.getBySel("nav-menu-link").its(0).click();
+      cy.getBySel("nav-menu-link").its(0).contains("Free Books").click();
     });
 
     cy.location("pathname").should("equal", "/subscribe");
@@ -30,11 +30,11 @@ describe("Navigation", () => {
     });
   });
 
-  it("The Articles link goes to the /posts page, and the nav menu opens when clicked", () => {
+  it("The Articles link goes to the /posts page", () => {
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
-      cy.getBySel("nav-menu-link").its(1).click();
+      cy.getBySel("nav-menu-link").its(1).contains("Articles").click();
     });
 
     cy.location("pathname").should("equal", "/posts");
@@ -48,11 +48,11 @@ describe("Navigation", () => {
     });
   });
 
-  it("The Courses link goes to the /courses page, and the nav menu opens when clicked", () => {
+  it("The Courses link goes to the /courses page", () => {
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
-      cy.getBySel("nav-menu-link").its(2).click();
+      cy.getBySel("nav-menu-link").its(2).contains("Courses").click();
     });
 
     cy.location("pathname").should("equal", "/courses");
@@ -66,11 +66,11 @@ describe("Navigation", () => {
     });
   });
 
-  it("The Tutorials link goes to the /tutorials page, and the nav menu opens when clicked", () => {
+  it("The Tutorials link goes to the /tutorials page", () => {
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
-      cy.getBySel("nav-menu-link").its(3).click();
+      cy.getBySel("nav-menu-link").its(3).contains("Tutorials").click();
     });
 
     cy.location("pathname").should("equal", "/tutorials");
@@ -84,11 +84,11 @@ describe("Navigation", () => {
     });
   });
 
-  it("The Search link goes to the /search page, and the nav menu opens when clicked", () => {
+  it("The Search link goes to the /search page", () => {
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
-      cy.getBySel("nav-menu-link").its(4).click();
+      cy.getBySel("nav-menu-link").its(4).contains("Search").click();
     });
 
     cy.location("pathname").should("equal", "/search");
