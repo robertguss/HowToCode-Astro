@@ -12,7 +12,7 @@ describe("Navigation", () => {
     });
   });
 
-  it("The Free Books link goes to the /subscribe page", () => {
+  it("The Free Books link goes to the /subscribe page, and the nav menu opens when clicked", () => {
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
@@ -20,9 +20,17 @@ describe("Navigation", () => {
     });
 
     cy.location("pathname").should("equal", "/subscribe");
+
+    cy.wait(200);
+
+    cy.getBySel("navigation").within(() => {
+      cy.getBySel("open-nav-button").click();
+
+      cy.getBySel("nav-menu-panel").should("be.visible");
+    });
   });
 
-  it("The Articles link goes to the /posts page", () => {
+  it("The Articles link goes to the /posts page, and the nav menu opens when clicked", () => {
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
@@ -30,9 +38,17 @@ describe("Navigation", () => {
     });
 
     cy.location("pathname").should("equal", "/posts");
+
+    cy.wait(200);
+
+    cy.getBySel("navigation").within(() => {
+      cy.getBySel("open-nav-button").click();
+
+      cy.getBySel("nav-menu-panel").should("be.visible");
+    });
   });
 
-  it("The Courses link goes to the /courses page", () => {
+  it("The Courses link goes to the /courses page, and the nav menu opens when clicked", () => {
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
@@ -40,9 +56,17 @@ describe("Navigation", () => {
     });
 
     cy.location("pathname").should("equal", "/courses");
+
+    cy.wait(200);
+
+    cy.getBySel("navigation").within(() => {
+      cy.getBySel("open-nav-button").click();
+
+      cy.getBySel("nav-menu-panel").should("be.visible");
+    });
   });
 
-  it("The Tutorials link goes to the /tutorials page", () => {
+  it("The Tutorials link goes to the /tutorials page, and the nav menu opens when clicked", () => {
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
@@ -50,9 +74,17 @@ describe("Navigation", () => {
     });
 
     cy.location("pathname").should("equal", "/tutorials");
+
+    cy.wait(200);
+
+    cy.getBySel("navigation").within(() => {
+      cy.getBySel("open-nav-button").click();
+
+      cy.getBySel("nav-menu-panel").should("be.visible");
+    });
   });
 
-  it("The Search link goes to the /search page", () => {
+  it("The Search link goes to the /search page, and the nav menu opens when clicked", () => {
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
@@ -60,5 +92,13 @@ describe("Navigation", () => {
     });
 
     cy.location("pathname").should("equal", "/search");
+
+    cy.wait(200);
+
+    cy.getBySel("navigation").within(() => {
+      cy.getBySel("open-nav-button").click();
+
+      cy.getBySel("nav-menu-panel").should("be.visible");
+    });
   });
 });
