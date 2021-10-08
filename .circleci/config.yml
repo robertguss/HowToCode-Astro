@@ -1,8 +1,5 @@
 version: 2.1
 
-orbs:
-  cypress: cypress-io/cypress@1.28.0
-
 executors:
   with-chrome-and-firefox:
     docker:
