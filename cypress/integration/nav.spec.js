@@ -1,7 +1,6 @@
 describe("Navigation", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000");
-    cy.wait(200);
   });
 
   it("the nav menu is displayed when the resources button is clicked", () => {
@@ -21,8 +20,6 @@ describe("Navigation", () => {
 
     cy.location("pathname").should("equal", "/subscribe");
 
-    cy.wait(200);
-
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
@@ -38,8 +35,6 @@ describe("Navigation", () => {
     });
 
     cy.location("pathname").should("equal", "/posts");
-
-    cy.wait(200);
 
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
@@ -57,8 +52,6 @@ describe("Navigation", () => {
 
     cy.location("pathname").should("equal", "/courses");
 
-    cy.wait(200);
-
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
@@ -75,8 +68,6 @@ describe("Navigation", () => {
 
     cy.location("pathname").should("equal", "/tutorials");
 
-    cy.wait(200);
-
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
 
@@ -92,8 +83,6 @@ describe("Navigation", () => {
     });
 
     cy.location("pathname").should("equal", "/search");
-
-    cy.wait(200);
 
     cy.getBySel("navigation").within(() => {
       cy.getBySel("open-nav-button").click();
