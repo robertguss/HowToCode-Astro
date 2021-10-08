@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:open:mobile": "cypress open --config viewportWidth=375,viewportHeight=667",
+    "cypress:run": "cypress run",
+    "cypress:run:mobile": "cypress run --config viewportWidth=375,viewportHeight=667",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
