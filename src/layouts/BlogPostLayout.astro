@@ -14,7 +14,7 @@ const {title, description, date, hero, youtube} = content;
   </head>
 
   <body>
-    <Nav client:only />
+    <Nav client:load />
     <main class="py-12 lg:py-20">
       <BlogPost title={title} hero={hero} date={date} youtube={youtube} >
         <slot />
