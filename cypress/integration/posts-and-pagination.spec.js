@@ -4,6 +4,10 @@ describe("/posts and pagination", () => {
       cy.visit("http://localhost:3000/posts");
     });
 
+    it("renders the correct header", () => {
+      cy.getBySel("header-title").contains("Articles");
+    });
+
     it("renders 21 articles", () => {
       cy.getBySel("articles-section").within(() => {
         cy.getBySel("article-card").its("length").should("equal", 21);
