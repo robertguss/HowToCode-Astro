@@ -3,6 +3,10 @@ describe("Subscribe", () => {
     cy.visit("http://localhost:3000/subscribe");
   });
 
+  it("renders the correct header", () => {
+    cy.getBySel("header-title").contains("Subscribe");
+  });
+
   // https://glebbahmutov.com/blog/form-validation-in-cypress/
   it("does NOT accept an invalid email", () => {
     cy.get("#tlemail,input:valid").should("have.length", 1);

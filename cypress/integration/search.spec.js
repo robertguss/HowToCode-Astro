@@ -3,6 +3,10 @@ describe("Search", () => {
     cy.visit("http://localhost:3000/search");
   });
 
+  it("renders the correct header", () => {
+    cy.getBySel("header-title").contains("Search");
+  });
+
   it("renders the correct results", () => {
     // Searching for "Go"
     cy.getBySel("search-input").type("Go");
