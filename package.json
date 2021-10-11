@@ -21,7 +21,6 @@
     "tailwindcss": "^2.2.15"
   },
   "dependencies": {
-    "astro-seo": "^0.3.11",
     "date-fns": "^2.24.0",
     "lunr": "^2.3.9"
   }
