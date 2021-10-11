@@ -15,14 +15,9 @@
   },
   "devDependencies": {
     "@astrojs/renderer-preact": "^0.2.2",
-    "@snowpack/plugin-postcss": "^1.4.3",
     "astro": "^0.20.7",
     "cypress": "^8.5.0",
     "mark.js": "^8.11.1",
-    "postcss": "^8.3.8",
-    "postcss-import": "^14.0.2",
-    "postcss-nested": "^5.0.6",
-    "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.2.15"
   },
   "dependencies": {
