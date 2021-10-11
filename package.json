@@ -26,8 +26,6 @@
     "tailwindcss": "^2.2.15"
   },
   "dependencies": {
-    "@headlessui/react": "^1.4.1",
-    "@heroicons/react": "^1.0.4",
     "astro-seo": "^0.3.11",
     "date-fns": "^2.24.0",
     "lunr": "^2.3.9"
