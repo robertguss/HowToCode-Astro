@@ -1,7 +1,7 @@
 ---
 // Component Imports
 import BaseHead from '../../components/Head/BaseHead.astro';
-import Nav from '../../components/Nav.tsx';
+import Nav from '../../components/Nav.astro';
 import HomeHeader from '../../components/HomeHeader.astro';
 import Card from '../../components/Card.astro';
 import Footer from '../../components/Footer/Footer.astro'
@@ -41,7 +41,7 @@ let seoDescription = 'How to Code is a blog for web developers that focuses on t
   </head>
 
   <body class="bg-white text-black font-body leading-normal personality-casual">
-    <Nav client:only />
+    <Nav />
 
     <main class="py-12 lg:py-20">
       <article class="max-w-6xl mx-auto px-3">
