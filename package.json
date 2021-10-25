@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "broken-links": "npx linkinator https://howtocode.io --recurse",
+    "broken-links": "npx linkinator https://howtocode.io --recurse --skip 'localhost'",
     "cypress:open": "cypress open",
     "cypress:open:mobile": "cypress open --config viewportWidth=375,viewportHeight=667",
     "cypress:run": "cypress run",
