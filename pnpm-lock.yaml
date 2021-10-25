@@ -8,7 +8,7 @@ specifiers:
   '@snowpack/plugin-postcss': 1.4.3
   astro: 0.20.12
   astro-seo: 0.3.13
-  cypress: 8.6.0
+  cypress: 8.7.0
   date-fns: 2.25.0
   linkinator: 2.14.4
   lunr: 2.3.9
@@ -32,7 +32,7 @@ devDependencies:
   '@astrojs/renderer-react': 0.2.2
   '@snowpack/plugin-postcss': 1.4.3_postcss@8.3.11
   astro: 0.20.12
-  cypress: 8.6.0
+  cypress: 8.7.0
   mark.js: 8.11.1
   postcss: 8.3.11
   postcss-import: 14.0.2_postcss@8.3.11
@@ -2028,8 +2028,8 @@ packages:
     resolution: {integrity: sha512-RSU6Hyeg14am3Ah4VZEmeX8H7kLwEEirXe6aU2IPfKNvhXwTflK5HQRDNI0ypQXoqmm+QPyG2IaPuQE5zMwSIQ==}
     dev: true
 
-  /cypress/8.6.0:
-    resolution: {integrity: sha512-F7qEK/6Go5FsqTueR+0wEw2vOVKNgk5847Mys8vsWkzPoEKdxs+7N9Y1dit+zhaZCLtMPyrMwjfA53ZFy+lSww==}
+  /cypress/8.7.0:
+    resolution: {integrity: sha512-b1bMC3VQydC6sXzBMFnSqcvwc9dTZMgcaOzT0vpSD+Gq1yFc+72JDWi55sfUK5eIeNLAtWOGy1NNb6UlhMvB+Q==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
