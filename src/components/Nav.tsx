@@ -20,7 +20,7 @@ const solutions = [
   {
     name: "Free Books",
     description: "",
-    href: "/subscribe",
+    href: "/books",
     icon: GiftIcon,
   },
   {
