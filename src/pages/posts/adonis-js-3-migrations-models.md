@@ -215,7 +215,7 @@ class BookController {
 module.exports = BookController;
 ```
 
-If you open your browser to [`http://127.0.0.1:3333/books/create`](http://127.0.0.1:3333/books/create) you should see the following:
+If you open your browser to [`http://localhost:3333/books/create`](http://localhost:3333/books/create) you should see the following:
 ![](/images/adonis-tutorial/2-create-view.JPG)
 
 We now need to create our `store` method on our Book controller that will take the data we fill out in this form and write it to our database.
@@ -509,7 +509,7 @@ Route.get("books/create", "BookController.create");
 Route.post("books", "BookController.store");
 ```
 
-Now, if we go to [`http://127.0.0.1:3333/`](http://127.0.0.1:3333/) we will land our Book index view.
+Now, if we go to [`http://localhost:3333/`](http://localhost:3333/) we will land our Book index view.
 
 Add the following to `book/index.edge`:
 

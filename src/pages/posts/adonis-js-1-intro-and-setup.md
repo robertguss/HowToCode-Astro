@@ -49,7 +49,7 @@ Next, open up your terminal and run the following commands to install Adonis JS 
 
 _**I am using version 4.0.12 of Adonis JS CLI at the time of writing this tutorial**_
 
-If all goes well, you should see the following at [http://127.0.0.1:3333/](http://127.0.0.1:3333/)
+If all goes well, you should see the following at [http://localhost:3333/](http://localhost:3333/)
 
 ![](/images/adonis-tutorial/adonis-works-screen.JPG)
 

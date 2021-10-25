@@ -110,7 +110,7 @@ class UserController {
 module.exports = UserController;
 ```
 
-Go to [`http://127.0.0.1:3333/register`](http://127.0.0.1:3333/register) in your browser and you should see the
+Go to [`http://localhost:3333/register`](http://localhost:3333/register) in your browser and you should see the
 following:
 
 ![](/images/adonis-tutorial/1-register-user-form.JPG)
@@ -275,7 +275,7 @@ class SessionController {
 module.exports = SessionController;
 ```
 
-Go to [`http://127.0.0.1:3333/login`](http://127.0.0.1:3333/login) and try and login with the user you created in the
+Go to [`http://localhost:3333/login`](http://localhost:3333/login) and try and login with the user you created in the
 previous step:
 
 ![](/images/adonis-tutorial/4-login-form.JPG)
@@ -366,7 +366,7 @@ class SessionController {
 module.exports = SessionController;
 ```
 
-Now if we refresh the page, and then go to [`http://127.0.0.1:3333/logout`](http://127.0.0.1:3333/logout) we should see
+Now if we refresh the page, and then go to [`http://localhost:3333/logout`](http://localhost:3333/logout) we should see
 the following:
 
 ![](/images/adonis-tutorial/6-logged-out-flash.JPG)

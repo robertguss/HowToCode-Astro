@@ -272,7 +272,7 @@ Route.on("/").render("welcome");
 Route.get("/books", "BookController.index");
 ```
 
-Now, go to [`http://127.0.0.1:3333/books`](http://127.0.0.1:3333/books) and you should see the following:
+Now, go to [`http://localhost:3333/books`](http://localhost:3333/books) and you should see the following:
 
 ![](/images/adonis-tutorial/books-route.JPG)
 

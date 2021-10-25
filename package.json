@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "broken-links": "npx linkinator https://howtocode.io --recurse",
     "cypress:open": "cypress open",
     "cypress:open:mobile": "cypress open --config viewportWidth=375,viewportHeight=667",
     "cypress:run": "cypress run",
@@ -31,6 +32,7 @@
     "@heroicons/react": "^1.0.4",
     "astro-seo": "^0.3.11",
     "date-fns": "^2.24.0",
+    "linkinator": "^2.14.4",
     "lunr": "^2.3.9"
   }
 }
