@@ -1,32 +1,6 @@
 lockfileVersion: 5.3
 
 specifiers:
-<<<<<<< HEAD
-  '@astrojs/renderer-preact': ^0.2.2
-  '@astrojs/renderer-react': ^0.2.1
-  '@headlessui/react': ^1.4.1
-  '@heroicons/react': ^1.0.4
-  '@snowpack/plugin-postcss': ^1.4.3
-  astro: ^0.20.7
-  astro-seo: ^0.3.11
-  cypress: ^8.5.0
-  date-fns: ^2.24.0
-  linkinator: ^2.14.4
-  lunr: ^2.3.9
-  mark.js: ^8.11.1
-  postcss: ^8.3.8
-  postcss-import: ^14.0.2
-  postcss-nested: ^5.0.6
-  postcss-preset-env: ^6.7.0
-  tailwindcss: ^2.2.15
-
-dependencies:
-  '@headlessui/react': 1.4.1
-  '@heroicons/react': 1.0.4
-  astro-seo: 0.3.11
-  date-fns: 2.24.0
-  linkinator: 2.14.4
-=======
   '@astrojs/renderer-preact': 0.2.2
   '@astrojs/renderer-react': 0.2.2
   '@headlessui/react': 1.4.1
@@ -36,6 +10,7 @@ dependencies:
   astro-seo: 0.3.13
   cypress: 8.6.0
   date-fns: 2.25.0
+  linkinator: ^2.14.4
   lunr: 2.3.9
   mark.js: 8.11.1
   postcss: 8.3.11
@@ -49,7 +24,7 @@ dependencies:
   '@heroicons/react': 1.0.5
   astro-seo: 0.3.13
   date-fns: 2.25.0
->>>>>>> 17be65c (Pin dependencies)
+  linkinator: 2.14.4
   lunr: 2.3.9
 
 devDependencies:
