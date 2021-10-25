@@ -10,7 +10,7 @@ specifiers:
   astro-seo: 0.3.13
   cypress: 8.6.0
   date-fns: 2.25.0
-  linkinator: ^2.14.4
+  linkinator: 2.14.4
   lunr: 2.3.9
   mark.js: 8.11.1
   postcss: 8.3.11
