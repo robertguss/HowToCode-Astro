@@ -10,8 +10,8 @@
     "cypress:run:mobile": "cypress run --config viewportWidth=375,viewportHeight=667",
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
-    "postbuild": "node ./scripts/search/prepare-index.js",
+    "build": "yarn search-index && astro build",
+    "search-index": "node ./scripts/search/prepare-index.js",
     "preview": "astro preview"
   },
   "devDependencies": {
