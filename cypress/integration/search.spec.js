@@ -1,6 +1,6 @@
 describe("Search", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:3000/search");
+    cy.visit("//search");
   });
 
   it("renders the correct header", () => {

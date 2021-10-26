@@ -1,6 +1,6 @@
 describe("/courses", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:3000/courses");
+    cy.visit("//courses");
   });
 
   it("renders the correct header", () => {
