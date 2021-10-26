@@ -1,7 +1,7 @@
 describe("/posts and pagination", () => {
   context("Page 1", () => {
     beforeEach(() => {
-      cy.visit("http://localhost:3000/posts");
+      cy.visit("//posts");
     });
 
     it("renders the correct header", () => {
@@ -31,7 +31,7 @@ describe("/posts and pagination", () => {
 
   context("Page 2", () => {
     beforeEach(() => {
-      cy.visit("http://localhost:3000/posts/2/");
+      cy.visit("//posts/2/");
     });
 
     it("renders 21 articles", () => {
@@ -52,7 +52,7 @@ describe("/posts and pagination", () => {
 
   context("Page 3", () => {
     beforeEach(() => {
-      cy.visit("http://localhost:3000/posts/3/");
+      cy.visit("//posts/3/");
     });
 
     it("page 3 displays the correct page number in the header", () => {

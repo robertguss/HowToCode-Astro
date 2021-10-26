@@ -2,9 +2,8 @@
 
 ---
 
-<!-- This example requires Tailwind CSS v2.0+ -->
 <header class="bg-blue-600">
-  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top" data-test="navigation">
     <div class="w-full py-6 flex items-center justify-between border-b border-indigo-500 lg:border-none">
       <div class="flex items-center">
         <a href="/">
@@ -15,25 +14,25 @@
           </svg>
         </a>
         <div class="hidden ml-10 space-x-8 lg:block">
-          <a href="/books" class="text-base font-medium text-white hover:text-indigo-50" key="Solutions">
+          <a href="/books" class="text-base font-medium text-white hover:text-indigo-50" key="Free Books" data-test="link-free-books">
             Free Books
           </a>
 
-          <a href="/posts" class="text-base font-medium text-white hover:text-indigo-50" key="Pricing">
+          <a href="/posts" class="text-base font-medium text-white hover:text-indigo-50" key="Articles" data-test="link-articles">
             Articles
           </a>
 
-          <a href="/courses" class="text-base font-medium text-white hover:text-indigo-50" key="Docs">
+          <a href="/courses" class="text-base font-medium text-white hover:text-indigo-50" key="Courses" data-test="link-courses">
             Courses
           </a>
 
-          <a href="/tutorials" class="text-base font-medium text-white hover:text-indigo-50" key="Company">
+          <a href="/tutorials" class="text-base font-medium text-white hover:text-indigo-50" key="Tutorials" data-test="link-tutorials">
             Tutorials
           </a>
         </div>
       </div>
       <div class="">
-        <a href="/search" class="py-2 px-4 border border-transparent rounded-md text-base font-medium text-white">
+        <a href="/search" class="py-2 px-4 border border-transparent rounded-md text-base font-medium text-white" data-test="link-search">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
