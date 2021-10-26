@@ -13,24 +13,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Cache pnpm modules
-        uses: actions/cache@v2
-        with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-
-
-      - uses: pnpm/action-setup@v2.0.1
-        with:
-          version: 6.0.2
-          run_install: true
-
       - name: Cypress install
         uses: cypress-io/github-action@v2
         with:
           runTests: false
-      - run: pnpm build
+      - run: npm run build
 
       - name: Save build folder
         uses: actions/upload-artifact@v2
@@ -38,31 +25,3 @@ jobs:
           name: build
           if-no-files-found: error
           path: build
-
-  ui-chrome-tests:
-    timeout-minutes: 15
-    runs-on: ubuntu-latest
-    container: cypress/browsers:node14.17.0-chrome88-ff89
-    needs: install
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Download the build folders
-        uses: actions/download-artifact@v2
-        with:
-          name: build
-          path: build
-
-      - name: "UI Tests - Chrome"
-        uses: cypress-io/github-action@v2
-        with:
-          start: pnpm dev
-          wait-on: "http://localhost:3000"
-          wait-on-timeout: 120
-          browser: chrome
-          spec: cypress/integration/*
-        env:
-          # Recommended: pass the GitHub token lets this action correctly
-          # determine the unique run id necessary to re-run the checks
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
