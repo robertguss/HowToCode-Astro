@@ -7,7 +7,7 @@ describe("Search", () => {
     cy.getBySel("header-title").contains("Search");
   });
 
-  it("renders the correct results", () => {
+  it("search for 'Go' returns Go Basics articles", () => {
     // Searching for "Go"
     cy.getBySel("search-input").type("Go");
     cy.get("#searchResults").should("be.visible");
@@ -16,23 +16,15 @@ describe("Search", () => {
       .within(() => {
         cy.get(".searchResultTitle").contains("Go");
       });
+  });
 
-    // Searching for JavaScript
+  it("search for 'JavaScript' returns JavaScript articles", () => {
     cy.getBySel("search-input").clear().type("JavaScript");
     cy.get("#searchResults").should("be.visible");
     cy.get(".searchResultPage")
       .its(0)
       .within(() => {
         cy.get(".searchResultTitle").contains("JavaScript");
-      });
-
-    // Searching for Elixir
-    cy.getBySel("search-input").clear().type("Elixir");
-    cy.get("#searchResults").should("be.visible");
-    cy.get(".searchResultPage")
-      .its(0)
-      .within(() => {
-        cy.get(".searchResultTitle").contains("Elixir");
       });
   });
 });
