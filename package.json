@@ -19,7 +19,7 @@
     "@astrojs/renderer-react": "0.2.2",
     "@snowpack/plugin-postcss": "1.4.3",
     "astro": "0.20.12",
-    "cypress": "8.7.0",
+    "cypress": "9.0.0",
     "mark.js": "8.11.1",
     "postcss": "8.3.11",
     "postcss-import": "14.0.2",
