@@ -32,7 +32,7 @@
     "@heroicons/react": "1.0.5",
     "astro-seo": "0.3.14",
     "date-fns": "2.25.0",
-    "linkinator": "2.14.4",
+    "linkinator": "2.16.2",
     "lunr": "2.3.9"
   }
 }
