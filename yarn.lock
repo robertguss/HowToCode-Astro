@@ -71,6 +71,15 @@
     react "^17.0.2"
     react-dom "^17.0.2"
 
+"@astrojs/renderer-react@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/renderer-react/-/renderer-react-0.3.0.tgz#740803cc68b14293006670ac246db9c76544a3a7"
+  integrity sha512-pb9gKVHJwtFNoYrtSnBfOPm/0IerEGe6MCDrgys5lwVPWiZ9Di+7uK+C2/UdBuHDM8NEKw+zXA+6qZi/endy+g==
+  dependencies:
+    "@babel/plugin-transform-react-jsx" "^7.16.0"
+    react "^17.0.2"
+    react-dom "^17.0.2"
+
 "@astrojs/renderer-svelte@0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@astrojs/renderer-svelte/-/renderer-svelte-0.1.2.tgz#412492cf1245a914236522a6e667d0e7753944ef"
@@ -274,7 +283,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-transform-react-jsx@^7.14.5":
+"@babel/plugin-transform-react-jsx@^7.14.5", "@babel/plugin-transform-react-jsx@^7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx/-/plugin-transform-react-jsx-7.16.0.tgz#55b797d4960c3de04e07ad1c0476e2bc6a4889f1"
   integrity sha512-rqDgIbukZ44pqq7NIRPGPGNklshPkvlmvqjdx3OZcGPk4zGIenYkxDTvl3LsSL8gqcc3ZzGmXPE6hR/u/voNOw==
