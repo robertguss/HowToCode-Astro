@@ -20,6 +20,7 @@
     "@snowpack/plugin-postcss": "1.4.3",
     "astro": "0.21.0",
     "cypress": "9.0.0",
+    "dart-linkcheck": "^2.0.15",
     "mark.js": "8.11.1",
     "postcss": "8.3.11",
     "postcss-import": "14.0.2",

@@ -10,6 +10,7 @@ specifiers:
   astro-seo: 0.4.2
   autoprefixer: ^10.4.0
   cypress: 9.0.0
+  dart-linkcheck: ^2.0.15
   date-fns: 2.26.0
   linkinator: 2.16.2
   lunr: 2.3.9
@@ -35,6 +36,7 @@ devDependencies:
   '@snowpack/plugin-postcss': 1.4.3_postcss@8.3.11
   astro: 0.21.0
   cypress: 9.0.0
+  dart-linkcheck: 2.0.15
   mark.js: 8.11.1
   postcss: 8.3.11
   postcss-import: 14.0.2_postcss@8.3.11
@@ -1579,6 +1581,11 @@ packages:
       untildify: 4.0.0
       url: 0.11.0
       yauzl: 2.10.0
+    dev: true
+
+  /dart-linkcheck/2.0.15:
+    resolution: {integrity: sha512-ZMvxkAyEpBTvBFk+DPjcK0ObNy8GM4gmrGG1qIu0EXb/zj25vjRWNnhLHKZw4JlOLo02oWlwDeqo98GuBlJcIg==}
+    hasBin: true
     dev: true
 
   /dashdash/1.14.1:
