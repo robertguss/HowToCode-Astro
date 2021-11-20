@@ -11,8 +11,9 @@
     "dev": "astro dev",
     "linkcheck": "linkcheck https://howtocode.io",
     "start": "astro dev",
-    "build": "npm run search-index && astro build",
+    "build": "astro build",
     "search-index": "node ./scripts/search/prepare-index.js",
+    "postbuild": "npm run search-index",
     "preview": "astro preview"
   },
   "devDependencies": {
